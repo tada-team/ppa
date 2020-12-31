@@ -40,10 +40,8 @@ jobs:
 #            pkg-config \
 #            software-properties-common \
 #            wget
-      - run: pwd
-        working-directory: ./libvpis
       - run: ls -lah
-        working-directory: ./libvpis
+        working-directory: tada-team.gitpages.io/libvpis
 #      - name: Make deb template
 #        working-directory: ./libvpis
 #        run: |
