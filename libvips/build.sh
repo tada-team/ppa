@@ -24,12 +24,4 @@ sed -i "s/%LIBVPS_VERSION%/${LIBVPS_VERSION}/g" ${DEST}/DEBIAN/*
     dpkg-deb --build ${DEST}
 )
 
-# echo "Try install ${DEB}"
-# if dpkg -i ${DEB}; then
-#     echo "Installed"
-# else
-#     echo "Fix requirements"
-#     apt-get -f install -y
-# fi
-
 mv ${DEB} ../ppa
