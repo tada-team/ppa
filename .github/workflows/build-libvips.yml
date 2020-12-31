@@ -15,8 +15,7 @@ on:
 
 jobs:
   build:
-    #    runs-on: ubuntu-18.04
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
 #      - name: Install requirements
 #        run: |
@@ -39,11 +38,9 @@ jobs:
 #            software-properties-common \
 #            wget
       - name: Make deb template
-        with:
-          dockerfile: Dockerfile
+        working-directory: ./libvpis
         run: |
           pwd
           ls -lah
-          cd libvips
           cp -rv DEBIAN.template td-libvips-dev_${{env.libvipsVersion}}/DEBIAN
           sed -i "s/%LIBVPS_VERSION%/${{env.libvipsVersion}}/g" td-libvips-dev_${{env.libvipsVersion}}/DEBIAN/*
