@@ -10,6 +10,7 @@ RUN apt-get update && apt-get upgrade -y \
     && update-locale LANG=en_US.UTF-8
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    apt-utils \
     automake \
     build-essential \
     ca-certificates \

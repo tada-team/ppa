@@ -2,7 +2,10 @@
 set -ex
 cd `dirname $0`
 
+docker-compose up -d --build
+docker-compose run --rm builder bash -c 'set -ex
 EMAIL=maxim.oransky@gmail.com
+
 cd ppa
 
 # Packages & Packages.gz
@@ -13,7 +16,4 @@ gzip -k -f Packages
 apt-ftparchive release . > Release
 gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
 gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
-
-git add -A
-git commit -m "update dist"
-git push
+'

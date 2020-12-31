@@ -1,0 +1,17 @@
+Date: Thu, 31 Dec 2020 15:57:40 +0000
+MD5Sum:
+ 6ac597c08e9d02af8e5116862ccfe724              709 Packages
+ cc0a94e09bd90a257a362841f28826c5              441 Packages.gz
+ b19e7377679896e9b4e51d918733c304               38 Release
+SHA1:
+ b40bbeae473d9683e9c99dfe6703af7a49fc7395              709 Packages
+ ea676f341babeeff561e0031de8e76e4ddf99f7e              441 Packages.gz
+ 1895b9f4195d6cb4024ffe15a58bfaf60c56a123               38 Release
+SHA256:
+ 3a2afd3664d195d7c8bd4d75da9b9cb5e81372c28442820609c6aeddc2f98de6              709 Packages
+ 2e4f06416ac0578f40f1ec13218dcbb6dd1a2440a21aeed031c903eef17340ba              441 Packages.gz
+ 5a3dd73e2316d1bf1a6b31e925cfdb851a9a3abdbbb6d72ceab75e0d048434c8               38 Release
+SHA512:
+ edd50dddf18707aa189562324c62fe6a7b4cbc7fb6522be08aab7c7d7d9f32bea05b8d355427a6f0fe6aed6e19e87ea3f14563556d756545fd7c1bcfef97b139              709 Packages
+ 0df4701f4546928c3472e293bcf6f097f7bc6bf4ae1f4fa025a10667b29bfd6e908747efd9dab05a8f4e26cf57bc31652d8f31489e134b2aecf435adc004e4a1              441 Packages.gz
+ bd0ff5a8c0982c5f0053527bb2a6e3dfd7c85be9d725755389e71b56f0c45a20af5d503bc6c3bc0a7b3413a7af4e2b02b7eb5a54c93ad957e6cc008345623859               38 Release

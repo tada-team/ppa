@@ -25,81 +25,11 @@ Depends: automake,
  libxml2-dev,
  swig
 Conflicts: libvps-dev
-Filename: ./libvips/td-libvips-8.10.5-dev.deb
-Size: 16166088
-MD5sum: d2400ab89ab1fbb9161a3f4c32ad8e27
-SHA1: 8ce6144a7196adeed3ebb452179781db41367830
-SHA256: b4cc5cdb207a1d2c075860955147576785d252fa03e97b4b6a75a3f49d211f47
-Section: devel
-Description: custom libvps build
-
-Package: td-libvps-dev
-Version: 8.10.5
-Architecture: all
-Maintainer: Tada.team <info@tada.team>
-Depends: automake,
- build-essential,
- cmake,
- giflib-tools,
- gobject-introspection,
- gtk-doc-tools,
- libexif-dev,
- libexpat1-dev,
- libgif-dev,
- libgif7,
- libglib2.0-dev,
- libgsf-1-dev,
- libjpeg-dev,
- liblcms2-dev,
- libmagickcore-dev,
- libpng-dev,
- libpoppler-glib-dev,
- libtiff5-dev,
- libtool,
- libwebp-dev,
- libxml2-dev,
- swig
-Conflicts: libvps-dev
-Filename: ./dist/td-libvips-dev_8.10.5.deb
+Filename: ./td-libvips-dev_8.10.5.deb
 Size: 16161760
 MD5sum: 07f3715f5ec92f8ad86897e1d99cba31
 SHA1: 139d95a0d502179fcd238c03df844eb9f9e668b3
 SHA256: d9e46c74ea6d2ea333b5495f8a0a0565486be35f660506cee6e69a08efd65261
-Section: devel
-Description: custom libvps build
-
-Package: td-libvps-dev
-Version: 8.7.2
-Architecture: all
-Maintainer: Tada.team <info@tada.team>
-Depends: automake,
- build-essential,
- cmake,
- giflib-tools,
- gobject-introspection,
- gtk-doc-tools,
- libexif-dev,
- libexpat1-dev,
- libgif-dev,
- libgif7,
- libglib2.0-dev,
- libgsf-1-dev,
- libjpeg-dev,
- liblcms2-dev,
- libmagickcore-dev,
- libpng-dev,
- libpoppler-glib-dev,
- libtiff5-dev,
- libtool,
- libwebp-dev,
- libxml2-dev,
- swig
-Conflicts: libvps-dev
-Filename: ./td-libvips-dev.deb
-Size: 10258496
-MD5sum: a3ae635e1bacee339360b6420f7c1dea
-SHA1: 6c8a7cb7317c22618830b916e8e76abd367ccb08
-SHA256: 8bcab80e7ea5721d4a93fd261ec71eaf9449f373c37a5ed9f78c5ed6fb7438da
 Section: devel
 Description: custom libvps build
 
