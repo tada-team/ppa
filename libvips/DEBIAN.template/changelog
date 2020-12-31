@@ -1,0 +1,5 @@
+libvps-dev (%LIBVPS_VERSION%); urgency=medium
+
+* custom libvps build
+
+-- Tada.team <info@tada.team> Thu, 31 Dec 2020 00:00:00 +0300
