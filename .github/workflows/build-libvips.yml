@@ -38,9 +38,9 @@ jobs:
 #            software-properties-common \
 #            wget
       - name: Make deb template
+        working-directory: libvips
         run: |
-          cd ..
           pwd
           ls -lah
-          cp -rv libvips/DEBIAN.template td-libvips-dev_${{env.libvipsVersion}}/DEBIAN
+          cp -rv DEBIAN.template td-libvips-dev_${{env.libvipsVersion}}/DEBIAN
           sed -i "s/%LIBVPS_VERSION%/${{env.libvipsVersion}}/g" td-libvips-dev_${{env.libvipsVersion}}/DEBIAN/*
