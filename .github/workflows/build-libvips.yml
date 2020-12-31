@@ -12,7 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
           fetch-depth: 1
       - name: Install requirements
@@ -51,6 +52,4 @@ jobs:
         run: |
           cd libvips
           dpkg-deb --build td-libvips-dev_${{env.libvipsVersion}}
-      - name: Move to ppa
-        run: |
           mv libvips/td-libvips-dev_${{env.libvipsVersion}} ../ppa

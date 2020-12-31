@@ -1,7 +1,0 @@
-version: '3'
-services:
-  builder:
-    build: ""
-    hostname: builder
-    volumes:
-      - .:/root/builder
