@@ -1,4 +1,4 @@
-Package: td-libvps-dev
+Package: td-libvips-dev
 Version: 8.10.5
 Architecture: all
 Maintainer: Tada.team <info@tada.team>
@@ -24,12 +24,12 @@ Depends: automake,
  libwebp-dev,
  libxml2-dev,
  swig
-Conflicts: libvps-dev
+Conflicts: libvips-dev
 Filename: ./td-libvips-dev_8.10.5.deb
-Size: 16159100
-MD5sum: 163f0f33cac77d01b37c988f83bf85b2
-SHA1: 97c46c39cc050585745919865d5fdb3a91868ec2
-SHA256: a2a665d925d04dc7a495e8793073f6e7e9936b56d61f98bc7d99c9cb016b4fa0
+Size: 16158192
+MD5sum: 7ee5b34fab936a0dadfd57c9285dec72
+SHA1: 0946e33315112f9fc2aad515446aa3f20023128e
+SHA256: dbb6063b618a84a15c4a1604c2e531f9fd77b939c9a9ee5d37288790da754f50
 Section: devel
-Description: custom libvps build
+Description: custom libvips build
 

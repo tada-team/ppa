@@ -1,10 +1,10 @@
-Package: td-libvps-dev
+Package: td-libvips-dev
 Version: %LIBVPS_VERSION%
 Maintainer: Tada.team <info@tada.team>
 Architecture: all
 Section: devel
-Description: custom libvps build
-Conflicts: libvps-dev
+Description: custom libvips build
+Conflicts: libvips-dev
 Depends: automake,
  build-essential,
  cmake,
