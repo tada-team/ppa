@@ -3,7 +3,7 @@ set -ex
 cd `dirname $0`
 
 EMAIL=maxim.oransky@gmail.com
-cd dist
+cd ppa
 
 # Packages & Packages.gz
 dpkg-scanpackages --multiversion . > Packages
