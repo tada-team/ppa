@@ -2,11 +2,6 @@ name: build-libvips
 env:
   libvipsVersion: '8.10.5'
 
-#readonly LIBVPS_VERSION=8.10.5
-#readonly SRC=https://github.com/libvips/libvips/releases/download/v${LIBVPS_VERSION}/vips-${LIBVPS_VERSION}.tar.gz
-#readonly DEST=td-libvips-dev_${LIBVPS_VERSION}
-#readonly DEB=${DEST}.deb
-
 on:
   push:
     branches: [ main ]
@@ -20,28 +15,42 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 1
-#      - name: Install requirements
-#        run: |
-#          sudo apt-get install -y --no-install-recommends \
-#            apt-utils \
-#            automake
-#            build-essential \
-#            ca-certificates \
-#            cmake \
-#            curl \
-#            debconf \
-#            debhelper \
-#            dpkg \
-#            git \
-#            gnupg \
-#            gobject-introspection \
-#            libexpat1-dev \
-#            libglib2.0-dev \
-#            pkg-config \
-#            software-properties-common \
-#            wget
-      - name: Make deb template
+      - name: Install requirements
+        run: |
+          sudo apt-get install -y --no-install-recommends \
+            apt-utils \
+            automake
+            build-essential \
+            ca-certificates \
+            cmake \
+            curl \
+            debconf \
+            debhelper \
+            dpkg \
+            git \
+            gnupg \
+            gobject-introspection \
+            libexpat1-dev \
+            libglib2.0-dev \
+            pkg-config \
+            software-properties-common \
+            wget
+      - name: Prepare template
         run: |
           mkdir -p libvips/td-libvips-dev_${{env.libvipsVersion}}
           cp -rv libvips/DEBIAN.template libvips/td-libvips-dev_${{env.libvipsVersion}}/DEBIAN
           sed -i "s/%LIBVPS_VERSION%/${{env.libvipsVersion}}/g" libvips/td-libvips-dev_${{env.libvipsVersion}}/DEBIAN/*
+      - name: Download lib
+        run: |
+          mkdir -p libvips/td-libvips-dev_${{env.libvipsVersion}}/usr/local/src
+          cd libvips/td-libvips-dev_${{env.libvipsVersion}}/usr/local/src
+          curl -L -o vips-${{env.libvipsVersion}}.tar.gz https://github.com/libvips/libvips/releases/download/v${{env.libvipsVersion}}/vips-${{env.libvipsVersion}}.tar.gz
+          tar zvxf vips-${{env.libvipsVersion}}.tar.gz
+          rm vips-${{env.libvipsVersion}}.tar.gz
+      - name: Build .deb
+        run: |
+          cd libvips
+          dpkg-deb --build td-libvips-dev_${{env.libvipsVersion}}
+      - name: Move to ppa
+        run: |
+          mv libvips/td-libvips-dev_${{env.libvipsVersion}} ../ppa
