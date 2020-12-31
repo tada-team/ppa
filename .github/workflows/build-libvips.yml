@@ -39,6 +39,8 @@ jobs:
 #            wget
       - name: ls
         run: ls -lah
+      - name: pwd
+        run: pwd
       - name: Make deb template
         run: |
           cp -rv libvips/DEBIAN.template td-libvips-dev_${{env.libvipsVersion}}/DEBIAN
