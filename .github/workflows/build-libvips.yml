@@ -1,4 +1,11 @@
 name: build-libvips
+env:
+  libvipsVersion: '8.10.5'
+
+readonly LIBVPS_VERSION=8.10.5
+readonly SRC=https://github.com/libvips/libvips/releases/download/v${LIBVPS_VERSION}/vips-${LIBVPS_VERSION}.tar.gz
+readonly DEST=td-libvips-dev_${LIBVPS_VERSION}
+readonly DEB=${DEST}.deb
 
 on:
   push:
@@ -10,25 +17,27 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
-      - name: Install requirements
+#      - name: Install requirements
+#        run: |
+#          sudo apt-get install -y --no-install-recommends \
+#            apt-utils \
+#            automake
+#            build-essential \
+#            ca-certificates \
+#            cmake \
+#            curl \
+#            debconf \
+#            debhelper \
+#            dpkg \
+#            git \
+#            gnupg \
+#            gobject-introspection \
+#            libexpat1-dev \
+#            libglib2.0-dev \
+#            pkg-config \
+#            software-properties-common \
+#            wget
+      - name: Make deb template
         run: |
-          sudo apt-get install -y --no-install-recommends \
-            apt-utils \
-            automake
-#          build-essential \
-#          ca-certificates \
-#          cmake \
-#          curl \
-#          debconf \
-#          debhelper \
-#          dpkg \
-#          git \
-#          gnupg \
-#          gobject-introspection \
-#          libexpat1-dev \
-#          libglib2.0-dev \
-#          mc \
-#          pkg-config \
-#          software-properties-common \
-#          sudo \
-#          wget
+          cp -rv libvips/DEBIAN.template td-libvips-dev_${{env.libvipsVersion}}/DEBIAN
+          sed -i "s/%LIBVPS_VERSION%/${{env.libvipsVersion}}/g" td-libvips-dev_${{env.libvipsVersion}}/DEBIAN/*
