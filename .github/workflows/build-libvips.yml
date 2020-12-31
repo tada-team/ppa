@@ -42,5 +42,6 @@ jobs:
 #            wget
       - name: Make deb template
         run: |
+          mkdir -p libvips/td-libvips-dev_${{env.libvipsVersion}}
           cp -rv libvips/DEBIAN.template libvips/td-libvips-dev_${{env.libvipsVersion}}/DEBIAN
           sed -i "s/%LIBVPS_VERSION%/${{env.libvipsVersion}}/g" libvips/td-libvips-dev_${{env.libvipsVersion}}/DEBIAN/*
