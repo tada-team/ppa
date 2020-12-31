@@ -2,10 +2,10 @@ name: build-libvips
 env:
   libvipsVersion: '8.10.5'
 
-readonly LIBVPS_VERSION=8.10.5
-readonly SRC=https://github.com/libvips/libvips/releases/download/v${LIBVPS_VERSION}/vips-${LIBVPS_VERSION}.tar.gz
-readonly DEST=td-libvips-dev_${LIBVPS_VERSION}
-readonly DEB=${DEST}.deb
+#readonly LIBVPS_VERSION=8.10.5
+#readonly SRC=https://github.com/libvips/libvips/releases/download/v${LIBVPS_VERSION}/vips-${LIBVPS_VERSION}.tar.gz
+#readonly DEST=td-libvips-dev_${LIBVPS_VERSION}
+#readonly DEB=${DEST}.deb
 
 on:
   push:
