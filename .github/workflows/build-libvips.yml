@@ -11,8 +11,9 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Install requirements
-        run: sudo apt-get install -y --no-install-recommends apt-utils
-#          automake \
+        run: sudo apt-get install -y --no-install-recommends \
+          apt-utils \
+          automake
 #          build-essential \
 #          ca-certificates \
 #          cmake \
