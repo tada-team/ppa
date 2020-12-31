@@ -32,4 +32,4 @@ sed -i "s/%LIBVPS_VERSION%/${LIBVPS_VERSION}/g" ${DEST}/DEBIAN/*
 #     apt-get -f install -y
 # fi
 
-mv ${DEB} ../dist
+mv ${DEB} ../ppa

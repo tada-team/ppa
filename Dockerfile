@@ -30,6 +30,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     sudo \
     wget
 
+COPY my-private-key.asc /tmp/my-private-key.asc
+RUN gpg --import /tmp/my-private-key.asc
+
 WORKDIR /root/builder
 
 CMD ["tail", "-F", "/dev/null"]

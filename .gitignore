@@ -1,1 +1,2 @@
-build/libvips/td-libvips-dev_*
+libvips/td-libvips-dev_*
+my-private-key.asc

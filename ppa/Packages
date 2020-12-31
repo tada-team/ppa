@@ -26,10 +26,10 @@ Depends: automake,
  swig
 Conflicts: libvps-dev
 Filename: ./td-libvips-dev_8.10.5.deb
-Size: 16161760
-MD5sum: 07f3715f5ec92f8ad86897e1d99cba31
-SHA1: 139d95a0d502179fcd238c03df844eb9f9e668b3
-SHA256: d9e46c74ea6d2ea333b5495f8a0a0565486be35f660506cee6e69a08efd65261
+Size: 16159100
+MD5sum: 163f0f33cac77d01b37c988f83bf85b2
+SHA1: 97c46c39cc050585745919865d5fdb3a91868ec2
+SHA256: a2a665d925d04dc7a495e8793073f6e7e9936b56d61f98bc7d99c9cb016b4fa0
 Section: devel
 Description: custom libvps build
 
