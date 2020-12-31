@@ -28,17 +28,18 @@ jobs:
         run: |
           base64 -d <<< "${{ secrets.GPG_PRIVATE_KEY }}" > my-private-key.asc
           gpg --import my-private-key.asc
-      - name: Reindex
+      - name: Packages file
         working-directory: ppa
         run: |
-          # Packages & Packages.gz
           dpkg-scanpackages --multiversion . > Packages
           gzip -k -f Packages
-
+      - name: Release file
+        working-directory: ppa
+        run: |
           apt-ftparchive release . > Release
           gpg --default-key "${{ secrets.GPG_EMAIL }}" -abs -o - Release > Release.gpg
           gpg --default-key "${{ secrets.GPG_EMAIL }}" --clearsign -o - Release > InRelease
-      - name: Push
+      - name: Publish
         uses: github-actions-x/commit@v2.7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
