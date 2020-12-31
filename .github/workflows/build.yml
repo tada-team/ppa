@@ -1,4 +1,4 @@
-name: build-libvips
+name: build
 env:
   libvipsVersion: '8.10.5'
 
