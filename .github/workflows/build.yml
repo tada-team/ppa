@@ -31,15 +31,13 @@ jobs:
       - name: Reindex
         working-directory: ppa
         run: |
-          EMAIL=maxim.oransky@gmail.com
-
           # Packages & Packages.gz
           dpkg-scanpackages --multiversion . > Packages
           gzip -k -f Packages
 
           apt-ftparchive release . > Release
-          gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
-          gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
+          gpg --default-key "${{ secrets.GPG_EMAIL }}" -abs -o - Release > Release.gpg
+          gpg --default-key "${{ secrets.GPG_EMAIL }}" --clearsign -o - Release > InRelease
       - name: Push
         uses: github-actions-x/commit@v2.7
         with:
