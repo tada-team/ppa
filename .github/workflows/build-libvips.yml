@@ -41,7 +41,6 @@ jobs:
 #            software-properties-common \
 #            wget
       - name: Make deb template
-        working-directory: libvpis
         run: |
           pwd
           ls -lah
