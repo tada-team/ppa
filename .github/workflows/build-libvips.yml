@@ -19,37 +19,27 @@ jobs:
       - name: Install requirements
         run: |
           sudo apt-get install -y --no-install-recommends \
-            apt-utils \
-            automake \
-            build-essential \
-            ca-certificates \
-            cmake \
-            curl \
-            debconf \
-            debhelper \
-            dpkg \
-            git \
-            gnupg \
-            gobject-introspection \
-            libexpat1-dev \
-            libglib2.0-dev \
-            pkg-config \
-            software-properties-common \
-            wget
-      - name: Prepare template
+            gnupg
+      - name: Copy dist
         run: |
-          mkdir -p libvips/td-libvips-dev_${{env.libvipsVersion}}
-          cp -rv libvips/DEBIAN.template libvips/td-libvips-dev_${{env.libvipsVersion}}/DEBIAN
-          sed -i "s/%LIBVPS_VERSION%/${{env.libvipsVersion}}/g" libvips/td-libvips-dev_${{env.libvipsVersion}}/DEBIAN/*
-      - name: Download lib
+          cp td-libvips-dev-dist/* ppa
+          ls -lah ppa
+      - name: Reindex
+        working-directory: ppa
         run: |
-          mkdir -p libvips/td-libvips-dev_${{env.libvipsVersion}}/usr/local/src
-          cd libvips/td-libvips-dev_${{env.libvipsVersion}}/usr/local/src
-          curl -L -o vips-${{env.libvipsVersion}}.tar.gz https://github.com/libvips/libvips/releases/download/v${{env.libvipsVersion}}/vips-${{env.libvipsVersion}}.tar.gz
-          tar zvxf vips-${{env.libvipsVersion}}.tar.gz
-          rm vips-${{env.libvipsVersion}}.tar.gz
-      - name: Build .deb
-        run: |
-          cd libvips
-          dpkg-deb --build td-libvips-dev_${{env.libvipsVersion}}
-          mv libvips/td-libvips-dev_${{env.libvipsVersion}} ../ppa
+          EMAIL=maxim.oransky@gmail.com
+
+          # Packages & Packages.gz
+          dpkg-scanpackages --multiversion . > Packages
+          gzip -k -f Packages
+
+          apt-ftparchive release . > Release
+          gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
+          gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
+      - name: Push
+        uses: github-actions-x/commit@v2.7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: 'main'
+          commit-message: 'publish'
+          force-add: 'true'
