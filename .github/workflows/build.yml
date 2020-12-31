@@ -24,6 +24,10 @@ jobs:
         run: |
           cp td-libvips-dev-dist/* ppa
           ls -lah ppa
+      - name: Import gpg key
+        run: |
+          base64 -d <<< "${{ secrets.GPG_PRIVATE_KEY }}" > my-private-key.asc
+          gpg --import my-private-key.asc
       - name: Reindex
         working-directory: ppa
         run: |
