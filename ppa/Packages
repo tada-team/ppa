@@ -27,6 +27,20 @@ SHA256: fbe0283344804333216443ff2e041a726e6e85196aa7e0e0058ba7bcad8df753
 Section: devel
 Description: custom libsrtp build
 
+Package: td-libsrtp-dev
+Version: 2.3.0
+Architecture: all
+Maintainer: Tada.team <info@tada.team>
+Depends: build-essential
+Conflicts: libsrtp-dev
+Filename: ./td-libsrtp-dev_2.3.0.deb
+Size: 401168
+MD5sum: fbfbbf944e0e18426502d0ba4d77f808
+SHA1: 172e7b8469daa3054463d9f87a9eedebf5a01b63
+SHA256: 2412da508f66b0e6986563fa65d014012f1dfce6d59c2e28dc3dd93989d2f2e8
+Section: devel
+Description: custom libsrtp build
+
 Package: td-libvips-dev
 Version: 8.10.5
 Architecture: all
