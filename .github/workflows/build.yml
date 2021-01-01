@@ -38,7 +38,7 @@ jobs:
       - name: Add changes
         run: |
           git add .
-          git ci -am "up"
+          git commit -am "up"
       - name: Publish
         uses: ad-m/github-push-action@master
         with:
