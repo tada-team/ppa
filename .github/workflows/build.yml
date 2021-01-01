@@ -35,10 +35,12 @@ jobs:
           apt-ftparchive release . > Release
           gpg --default-key "${{ secrets.GPG_EMAIL }}" -abs -o - Release > Release.gpg
           gpg --default-key "${{ secrets.GPG_EMAIL }}" --clearsign -o - Release > InRelease
+      - name: Add changes
+        run: |
+          git add .
+          git ci -am "up"
       - name: Publish
-        uses: github-actions-x/commit@v2.7
+        uses: ad-m/github-push-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: 'main'
-          commit-message: 'publish'
-          force-add: 'true'
+          branch: 'main'
