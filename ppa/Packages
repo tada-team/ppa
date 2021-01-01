@@ -24,10 +24,10 @@ Depends: build-essential,
  gtk-doc-tools
 Conflicts: libnice-dev
 Filename: ./td-libnice-dev_0.1.16.deb
-Size: 323588
-MD5sum: cfa3bef46607d89555d30f19f6bea429
-SHA1: 0d2dea3fac29265b89ea7fa520af14093b172e53
-SHA256: 0140bdf8c307997682f699b0d8061d14eadf56131af8589ee49f8b6d103a3275
+Size: 323552
+MD5sum: 47cbf6f9c9a67ad3258c06f18f6ea248
+SHA1: 8b4c89d13117519544e07462af9d65cc332d2389
+SHA256: f97defcc570f7b40f5e6547b0ddaee90c5d6167c67909b3a6a20b5249869e121
 Section: devel
 Description: custom libnice build
 
@@ -115,10 +115,10 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libwebsockets-dev
 Filename: ./td-libwebsockets-dev_4.1.6.deb
-Size: 11297696
-MD5sum: b5a36f5103bd9756a18a7e9bbdf08989
-SHA1: a93762dc64c5ff794d3dd7ef33f7ab50da4e2124
-SHA256: f5b358fefd320c10defe7970d6b0882fd91c6a0d9889dfd15e97a29c130f705b
+Size: 11299724
+MD5sum: ebbf6b6ec1f9775670f10de241056ddd
+SHA1: 5d540939c5ddfe26301a01f13802b76ea8bdd677
+SHA256: a38795b6b84da3070c32a90173d22ac2e2210e5e58afab07553a35cfd6094609
 Section: devel
 Description: custom libwebsockets build
 
