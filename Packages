@@ -5,14 +5,15 @@ Maintainer: Tada.team <info@tada.team>
 Depends: gengetopt,
  libconfig-dev,
  libjansson-dev,
+ libopus-dev,
  td-libnice-dev,
  td-libsrtp-dev,
  td-libwebsockets-dev
 Filename: ./td-janus_0.10.9.deb
-Size: 5708892
-MD5sum: 4833a41fb3740077415c537692b42ace
-SHA1: 981edf3278d984c12d6d5b3d9324e1c863f28621
-SHA256: a9784a2f23e4bb4e5a34e505dbc94197d06fc8eeba353e8f323d843f14470984
+Size: 5704680
+MD5sum: 7069df5b4b81e1b1a2ed16039b810149
+SHA1: 74f92b59f2332c9a85b36090ded0201e36a34c04
+SHA256: 3d90e3d5cef91896aebe5b454a9c85977ffcb87c94181064a89a91a68dac15ed
 Section: devel
 Description: custom janus build
 
@@ -23,14 +24,15 @@ Maintainer: Tada.team <info@tada.team>
 Depends: gengetopt,
  libconfig-dev,
  libjansson-dev,
+ libopus-dev,
  td-libnice-dev,
  td-libsrtp-dev,
  td-libwebsockets-dev
 Filename: ./td-janus-dist/td-janus_0.10.9.deb
-Size: 5708892
-MD5sum: 4833a41fb3740077415c537692b42ace
-SHA1: 981edf3278d984c12d6d5b3d9324e1c863f28621
-SHA256: a9784a2f23e4bb4e5a34e505dbc94197d06fc8eeba353e8f323d843f14470984
+Size: 5704680
+MD5sum: 7069df5b4b81e1b1a2ed16039b810149
+SHA1: 74f92b59f2332c9a85b36090ded0201e36a34c04
+SHA256: 3d90e3d5cef91896aebe5b454a9c85977ffcb87c94181064a89a91a68dac15ed
 Section: devel
 Description: custom janus build
 
