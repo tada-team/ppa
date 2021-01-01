@@ -44,5 +44,5 @@ jobs:
       - name: Publish
         uses: ad-m/github-push-action@master
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: 'main'
