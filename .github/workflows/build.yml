@@ -20,6 +20,7 @@ jobs:
         run: |
           cp td-libvips-dev-dist/* ppa
           cp td-libnice-dev-dist/* ppa
+          cp td-libwebsockets-dev-dist/* ppa
           ls -lah ppa
       - name: Import gpg key
         run: |
