@@ -22,6 +22,7 @@ jobs:
           cp td-libnice-dev-dist/* ppa
           cp td-libwebsockets-dev-dist/* ppa
           cp td-libsrtp-dev-dist/* ppa
+          cp td-janus-dist/* ppa
           ls -lah ppa
       - name: Import gpg key
         run: |
