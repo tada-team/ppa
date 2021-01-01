@@ -24,10 +24,10 @@ Depends: build-essential,
  gtk-doc-tools
 Conflicts: libnice-dev
 Filename: ./td-libnice-dev_0.1.16.deb
-Size: 323552
-MD5sum: 95b6f730c664a37f864a9143933ff19e
-SHA1: bd2d2a2effa6694e19abbbdd29865ddf131d6396
-SHA256: 176fb8bb422e1a77d54138abd5a5bb4edabd40905713d7c3de7b074279f21321
+Size: 323448
+MD5sum: f5be9a7333d2276b811c45c8ad505cee
+SHA1: c3187a00706b02ec09dcb551dff28947c1d0e2db
+SHA256: 0b390165b04d817152c22f7da7279602838826fdcc8f0f038a4af0d8dae87bc4
 Section: devel
 Description: custom libnice build
 
