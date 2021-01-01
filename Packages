@@ -9,10 +9,10 @@ Depends: gengetopt,
  td-libsrtp-dev,
  td-libwebsockets-dev
 Filename: ./td-janus_0.10.9.deb
-Size: 5706264
-MD5sum: cb57e43a9501652675b4653bfec3608a
-SHA1: 8592ea875155e7180e66b0ff404d620c5a6feda0
-SHA256: 575455b87bd385767bbc2a0f26c73d8f26fa6777940f1d19a916e6308a387169
+Size: 5708892
+MD5sum: 4833a41fb3740077415c537692b42ace
+SHA1: 981edf3278d984c12d6d5b3d9324e1c863f28621
+SHA256: a9784a2f23e4bb4e5a34e505dbc94197d06fc8eeba353e8f323d843f14470984
 Section: devel
 Description: custom janus build
 
@@ -27,10 +27,10 @@ Depends: gengetopt,
  td-libsrtp-dev,
  td-libwebsockets-dev
 Filename: ./td-janus-dist/td-janus_0.10.9.deb
-Size: 5706264
-MD5sum: cb57e43a9501652675b4653bfec3608a
-SHA1: 8592ea875155e7180e66b0ff404d620c5a6feda0
-SHA256: 575455b87bd385767bbc2a0f26c73d8f26fa6777940f1d19a916e6308a387169
+Size: 5708892
+MD5sum: 4833a41fb3740077415c537692b42ace
+SHA1: 981edf3278d984c12d6d5b3d9324e1c863f28621
+SHA256: a9784a2f23e4bb4e5a34e505dbc94197d06fc8eeba353e8f323d843f14470984
 Section: devel
 Description: custom janus build
 
