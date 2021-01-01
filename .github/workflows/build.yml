@@ -18,23 +18,21 @@ jobs:
             gnupg
       - name: Copy dist
         run: |
-          cp td-libvips-dev-dist/* ppa
-          cp td-libnice-dev-dist/* ppa
-          cp td-libwebsockets-dev-dist/* ppa
-          cp td-libsrtp-dev-dist/* ppa
-          cp td-janus-dist/* ppa
-          ls -lah ppa
+          cp td-libvips-dev-dist/* .
+          cp td-libnice-dev-dist/* .
+          cp td-libwebsockets-dev-dist/* .
+          cp td-libsrtp-dev-dist/* .
+          cp td-janus-dist/* .
+          ls -lah .
       - name: Import gpg key
         run: |
           base64 -d <<< "${{ secrets.GPG_PRIVATE_KEY }}" > my-private-key.asc
           gpg --import my-private-key.asc
       - name: Packages file
-        working-directory: ppa
         run: |
           dpkg-scanpackages --multiversion . > Packages
           gzip -k -f Packages
       - name: Release file
-        working-directory: ppa
         run: |
           apt-ftparchive release . > Release
           gpg --default-key "${{ secrets.GPG_EMAIL }}" -abs -o - Release > Release.gpg
