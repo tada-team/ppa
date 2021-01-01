@@ -26,10 +26,10 @@ Depends: automake,
  swig
 Conflicts: libvips-dev
 Filename: ./td-libvips-dev_8.10.5.deb
-Size: 16158792
-MD5sum: ba6db6579e3f4362517c4312ac874c26
-SHA1: d876aa547df7ad59f914348f19a824770c5882d3
-SHA256: 4d81584c343a8a54992c5d58a7c7993d45ac6cc6a3f926426355222007b43584
+Size: 16161112
+MD5sum: 9c65614efe1bb9d450916384357c2543
+SHA1: 9c72b17bf2e0850626a0d6e28b6b16464c645962
+SHA256: 0de00a31932077d6fd1dbef071d3ed0f50b94dd61ae38123489dd3f2ec9f9cfa
 Section: devel
 Description: custom libvips build
 
