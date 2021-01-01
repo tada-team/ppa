@@ -13,6 +13,20 @@ SHA256: 176fb8bb422e1a77d54138abd5a5bb4edabd40905713d7c3de7b074279f21321
 Section: devel
 Description: custom libnice build
 
+Package: td-libsrtp-dev
+Version: 2.2.0
+Architecture: all
+Maintainer: Tada.team <info@tada.team>
+Depends: build-essential
+Conflicts: libsrtp-dev
+Filename: ./td-libsrtp-dev_2.2.0.deb
+Size: 227600
+MD5sum: 8c25229f96bc2936d4d4c91a7dd67cde
+SHA1: 5a6efd14096e16fbba25b079e72ae78968b0661f
+SHA256: fbe0283344804333216443ff2e041a726e6e85196aa7e0e0058ba7bcad8df753
+Section: devel
+Description: custom libsrtp build
+
 Package: td-libvips-dev
 Version: 8.10.5
 Architecture: all
