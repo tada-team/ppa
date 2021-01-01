@@ -1,3 +1,21 @@
+Package: td-janus
+Version: 0.10.9
+Architecture: all
+Maintainer: Tada.team <info@tada.team>
+Depends: gengetopt,
+ libconfig-dev,
+ libjansson-dev,
+ td-libnice-dev,
+ td-libsrtp-dev,
+ td-libwebsockets-dev
+Filename: ./td-janus_0.10.9.deb
+Size: 5706264
+MD5sum: cb57e43a9501652675b4653bfec3608a
+SHA1: 8592ea875155e7180e66b0ff404d620c5a6feda0
+SHA256: 575455b87bd385767bbc2a0f26c73d8f26fa6777940f1d19a916e6308a387169
+Section: devel
+Description: custom janus build
+
 Package: td-libnice-dev
 Version: 0.1.16
 Architecture: all
