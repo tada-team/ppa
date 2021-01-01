@@ -16,6 +16,24 @@ SHA256: 575455b87bd385767bbc2a0f26c73d8f26fa6777940f1d19a916e6308a387169
 Section: devel
 Description: custom janus build
 
+Package: td-janus
+Version: 0.10.9
+Architecture: all
+Maintainer: Tada.team <info@tada.team>
+Depends: gengetopt,
+ libconfig-dev,
+ libjansson-dev,
+ td-libnice-dev,
+ td-libsrtp-dev,
+ td-libwebsockets-dev
+Filename: ./td-janus-dist/td-janus_0.10.9.deb
+Size: 5706264
+MD5sum: cb57e43a9501652675b4653bfec3608a
+SHA1: 8592ea875155e7180e66b0ff404d620c5a6feda0
+SHA256: 575455b87bd385767bbc2a0f26c73d8f26fa6777940f1d19a916e6308a387169
+Section: devel
+Description: custom janus build
+
 Package: td-libnice-dev
 Version: 0.1.16
 Architecture: all
@@ -24,6 +42,21 @@ Depends: build-essential,
  gtk-doc-tools
 Conflicts: libnice-dev
 Filename: ./td-libnice-dev_0.1.16.deb
+Size: 323552
+MD5sum: 47cbf6f9c9a67ad3258c06f18f6ea248
+SHA1: 8b4c89d13117519544e07462af9d65cc332d2389
+SHA256: f97defcc570f7b40f5e6547b0ddaee90c5d6167c67909b3a6a20b5249869e121
+Section: devel
+Description: custom libnice build
+
+Package: td-libnice-dev
+Version: 0.1.16
+Architecture: all
+Maintainer: Tada.team <info@tada.team>
+Depends: build-essential,
+ gtk-doc-tools
+Conflicts: libnice-dev
+Filename: ./td-libnice-dev-dist/td-libnice-dev_0.1.16.deb
 Size: 323552
 MD5sum: 47cbf6f9c9a67ad3258c06f18f6ea248
 SHA1: 8b4c89d13117519544e07462af9d65cc332d2389
@@ -52,6 +85,20 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libsrtp-dev
 Filename: ./td-libsrtp-dev_2.3.0.deb
+Size: 401168
+MD5sum: fbfbbf944e0e18426502d0ba4d77f808
+SHA1: 172e7b8469daa3054463d9f87a9eedebf5a01b63
+SHA256: 2412da508f66b0e6986563fa65d014012f1dfce6d59c2e28dc3dd93989d2f2e8
+Section: devel
+Description: custom libsrtp build
+
+Package: td-libsrtp-dev
+Version: 2.3.0
+Architecture: all
+Maintainer: Tada.team <info@tada.team>
+Depends: build-essential
+Conflicts: libsrtp-dev
+Filename: ./td-libsrtp-dev-dist/td-libsrtp-dev_2.3.0.deb
 Size: 401168
 MD5sum: fbfbbf944e0e18426502d0ba4d77f808
 SHA1: 172e7b8469daa3054463d9f87a9eedebf5a01b63
@@ -94,6 +141,41 @@ SHA256: 3a097b1011f02fc52af5d994e388b4e33df2db5cbcf45248693c3d710ed6cf75
 Section: devel
 Description: custom libvips build
 
+Package: td-libvips-dev
+Version: 8.10.5
+Architecture: all
+Maintainer: Tada.team <info@tada.team>
+Depends: automake,
+ build-essential,
+ cmake,
+ giflib-tools,
+ gobject-introspection,
+ gtk-doc-tools,
+ libexif-dev,
+ libexpat1-dev,
+ libgif-dev,
+ libgif7,
+ libglib2.0-dev,
+ libgsf-1-dev,
+ libjpeg-dev,
+ liblcms2-dev,
+ libmagickcore-dev,
+ libpng-dev,
+ libpoppler-glib-dev,
+ libtiff5-dev,
+ libtool,
+ libwebp-dev,
+ libxml2-dev,
+ swig
+Conflicts: libvips-dev
+Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.5.deb
+Size: 16159904
+MD5sum: 3804d26f855f9a12725f06d3c1aca00c
+SHA1: 407bd37da8d929c9ed18412af826b07b3c4ac559
+SHA256: 3a097b1011f02fc52af5d994e388b4e33df2db5cbcf45248693c3d710ed6cf75
+Section: devel
+Description: custom libvips build
+
 Package: td-libwebsockets-dev
 Version: 3.2.0
 Architecture: all
@@ -115,6 +197,20 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libwebsockets-dev
 Filename: ./td-libwebsockets-dev_4.1.6.deb
+Size: 11299724
+MD5sum: ebbf6b6ec1f9775670f10de241056ddd
+SHA1: 5d540939c5ddfe26301a01f13802b76ea8bdd677
+SHA256: a38795b6b84da3070c32a90173d22ac2e2210e5e58afab07553a35cfd6094609
+Section: devel
+Description: custom libwebsockets build
+
+Package: td-libwebsockets-dev
+Version: 4.1.6
+Architecture: all
+Maintainer: Tada.team <info@tada.team>
+Depends: build-essential
+Conflicts: libwebsockets-dev
+Filename: ./td-libwebsockets-dev-dist/td-libwebsockets-dev_4.1.6.deb
 Size: 11299724
 MD5sum: ebbf6b6ec1f9775670f10de241056ddd
 SHA1: 5d540939c5ddfe26301a01f13802b76ea8bdd677
