@@ -48,3 +48,17 @@ SHA256: dadb5969eee50596f60f397965cf82ad51d45f62554c084feecd59dad0abf644
 Section: devel
 Description: custom libvips build
 
+Package: td-libwebsockets-dev
+Version: 3.2.0
+Architecture: all
+Maintainer: Tada.team <info@tada.team>
+Depends: build-essential
+Conflicts: libwebsockets-dev
+Filename: ./td-libwebsockets-dev_3.2.0.deb
+Size: 5596436
+MD5sum: 710261f8000f691965901ec918635be2
+SHA1: 6d6b45e238b67d1be83ad82a4e3e937a642be4f7
+SHA256: 9b196dafa63e17c8be71e524ff8520430d17a141c5fdcd740aa1418fdde7dcb7
+Section: devel
+Description: custom libwebsockets build
+
