@@ -37,6 +37,8 @@ jobs:
           gpg --default-key "${{ secrets.GPG_EMAIL }}" --clearsign -o - Release > InRelease
       - name: Add changes
         run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add .
           git commit -am "up"
       - name: Publish
