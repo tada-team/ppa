@@ -90,3 +90,17 @@ SHA256: 9b196dafa63e17c8be71e524ff8520430d17a141c5fdcd740aa1418fdde7dcb7
 Section: devel
 Description: custom libwebsockets build
 
+Package: td-libwebsockets-dev
+Version: 4.1.6
+Architecture: all
+Maintainer: Tada.team <info@tada.team>
+Depends: build-essential
+Conflicts: libwebsockets-dev
+Filename: ./td-libwebsockets-dev_4.1.6.deb
+Size: 11297696
+MD5sum: b5a36f5103bd9756a18a7e9bbdf08989
+SHA1: a93762dc64c5ff794d3dd7ef33f7ab50da4e2124
+SHA256: f5b358fefd320c10defe7970d6b0882fd91c6a0d9889dfd15e97a29c130f705b
+Section: devel
+Description: custom libwebsockets build
+
