@@ -1,1 +1,1 @@
-https://tada-team.github.io
+https://tada-team.github.io/ppa
