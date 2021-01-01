@@ -1,13 +1,9 @@
+# based on https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html
 name: build
-env:
-  libvipsVersion: '8.10.5'
-
 on:
   push:
     branches: [ main ]
-
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-18.04
