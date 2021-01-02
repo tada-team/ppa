@@ -23,7 +23,7 @@ jobs:
           cp td-libwebsockets-dev-dist/* .
           cp td-libsrtp-dev-dist/* .
           cp td-janus-dist/* .
-          cp td-process-exporter/* .
+          cp td-process-exporter-dist/* .
           ls -lah .
       - name: Import gpg key
         run: |
