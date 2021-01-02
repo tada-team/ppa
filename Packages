@@ -224,11 +224,12 @@ Package: td-process-exporter
 Version: 1.0.0
 Architecture: amd64
 Maintainer: Tada.team <info@tada.team>
+Depends: systemd
 Filename: ./td-process-exporter_1.0.0_amd64.deb
-Size: 5788968
-MD5sum: cff7c14ac46bd23be2c069c7477c4bb3
-SHA1: dd50d27d83c2c9066141cf8c03c2a674bfb28bb9
-SHA256: ccd84b293b0d5ba03e82895ea88ce72f0b282cd8487c4643c44760a9b1049c70
+Size: 5790144
+MD5sum: 415b463f138ff7b9bd518a7e2321fa88
+SHA1: b5cca07ba67f99eea01b1c51f2a74e37f2fd1e34
+SHA256: 2909817aea497f12eca637c9886be1dfcd5854d188c35b87f9e10949100136f0
 Section: admin
 Description: custom github.com/tada-team/process-exporter build
 
@@ -236,11 +237,12 @@ Package: td-process-exporter
 Version: 1.0.0
 Architecture: i386
 Maintainer: Tada.team <info@tada.team>
+Depends: systemd
 Filename: ./td-process-exporter_1.0.0_i386.deb
-Size: 5667960
-MD5sum: 9825abe3c77eac3988e1da1cf96ea788
-SHA1: 1061c0dd119fa3a31ca2f862bbfe7b03f8fe2984
-SHA256: 1108d033ff649d5f9e9dbe6084c3d9fae79782e0d4f1f877ec1707d7b7c502ce
+Size: 5667800
+MD5sum: e116a6597f4f546ee7ef4ab333cccba5
+SHA1: 8737551caebe2d045bffddb3096e82c721870c1e
+SHA256: c553bcb0cd396795dcb514008262173e114095d69c60f8d94d41f106d9522bf2
 Section: admin
 Description: custom github.com/tada-team/process-exporter build
 
@@ -248,11 +250,12 @@ Package: td-process-exporter
 Version: 1.0.0
 Architecture: amd64
 Maintainer: Tada.team <info@tada.team>
+Depends: systemd
 Filename: ./td-process-exporter-dist/td-process-exporter_1.0.0_amd64.deb
-Size: 5788968
-MD5sum: cff7c14ac46bd23be2c069c7477c4bb3
-SHA1: dd50d27d83c2c9066141cf8c03c2a674bfb28bb9
-SHA256: ccd84b293b0d5ba03e82895ea88ce72f0b282cd8487c4643c44760a9b1049c70
+Size: 5790144
+MD5sum: 415b463f138ff7b9bd518a7e2321fa88
+SHA1: b5cca07ba67f99eea01b1c51f2a74e37f2fd1e34
+SHA256: 2909817aea497f12eca637c9886be1dfcd5854d188c35b87f9e10949100136f0
 Section: admin
 Description: custom github.com/tada-team/process-exporter build
 
@@ -260,11 +263,12 @@ Package: td-process-exporter
 Version: 1.0.0
 Architecture: i386
 Maintainer: Tada.team <info@tada.team>
+Depends: systemd
 Filename: ./td-process-exporter-dist/td-process-exporter_1.0.0_i386.deb
-Size: 5667960
-MD5sum: 9825abe3c77eac3988e1da1cf96ea788
-SHA1: 1061c0dd119fa3a31ca2f862bbfe7b03f8fe2984
-SHA256: 1108d033ff649d5f9e9dbe6084c3d9fae79782e0d4f1f877ec1707d7b7c502ce
+Size: 5667800
+MD5sum: e116a6597f4f546ee7ef4ab333cccba5
+SHA1: 8737551caebe2d045bffddb3096e82c721870c1e
+SHA256: c553bcb0cd396795dcb514008262173e114095d69c60f8d94d41f106d9522bf2
 Section: admin
 Description: custom github.com/tada-team/process-exporter build
 
