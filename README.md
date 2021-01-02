@@ -36,3 +36,9 @@ Source: [github.com/tada-team/td-libsrtp-dev](https://github.com/tada-team/td-li
 sudo apt-get install td-janus
 ```
 Source: [github.com/tada-team/td-janus](https://github.com/tada-team/td-janus)
+
+## process-exporter
+```bash
+sudo apt-get install td-process-exporter
+```
+Source: [github.com/tada-team/td-process-exporter](https://github.com/tada-team/td-process-exporter)
