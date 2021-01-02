@@ -220,3 +220,27 @@ SHA256: a38795b6b84da3070c32a90173d22ac2e2210e5e58afab07553a35cfd6094609
 Section: devel
 Description: custom libwebsockets build
 
+Package: td-process-exporter
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Tada.team <info@tada.team>
+Filename: ./td-process-exporter-dist/td-process-exporter_1.0.0_amd64.deb
+Size: 5789856
+MD5sum: c66d900bacf145efd1eef249beec0b7d
+SHA1: bbe9c1634f01eb98bb34ab58d7c038590b7fcf35
+SHA256: 1e3aedc625be6f4156a0fa6600bd995a7a07359d5a8fe4cb32e771613abf6933
+Section: admin
+Description: custom github.com/tada-team/process-exporter build
+
+Package: td-process-exporter
+Version: 1.0.0
+Architecture: i386
+Maintainer: Tada.team <info@tada.team>
+Filename: ./td-process-exporter-dist/td-process-exporter_1.0.0_i386.deb
+Size: 5667764
+MD5sum: 16e85187ee7a40f6eb55217a29d369cd
+SHA1: 93b7b922c8264b4cc2b6e4aa1d60bcf114bbdacd
+SHA256: 555e25c9b62d359371a86affe7e8471aa8bb9f0e358b38020f0d24e0f8f918b0
+Section: admin
+Description: custom github.com/tada-team/process-exporter build
+
