@@ -87,10 +87,10 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libsrtp-dev
 Filename: ./td-libsrtp-dev_2.3.0.deb
-Size: 401168
-MD5sum: fbfbbf944e0e18426502d0ba4d77f808
-SHA1: 172e7b8469daa3054463d9f87a9eedebf5a01b63
-SHA256: 2412da508f66b0e6986563fa65d014012f1dfce6d59c2e28dc3dd93989d2f2e8
+Size: 401280
+MD5sum: 67cfba7b03179d1c234c10214b6619f9
+SHA1: ee50ea6e4178d47aad911ca2bf3cd87a777dab5c
+SHA256: 29a9540c0092c9fd3c35a420bfc10e47afde1b9ddd1c45c3e634d0e846d98512
 Section: devel
 Description: custom libsrtp build
 
@@ -101,10 +101,10 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libsrtp-dev
 Filename: ./td-libsrtp-dev-dist/td-libsrtp-dev_2.3.0.deb
-Size: 401168
-MD5sum: fbfbbf944e0e18426502d0ba4d77f808
-SHA1: 172e7b8469daa3054463d9f87a9eedebf5a01b63
-SHA256: 2412da508f66b0e6986563fa65d014012f1dfce6d59c2e28dc3dd93989d2f2e8
+Size: 401280
+MD5sum: 67cfba7b03179d1c234c10214b6619f9
+SHA1: ee50ea6e4178d47aad911ca2bf3cd87a777dab5c
+SHA256: 29a9540c0092c9fd3c35a420bfc10e47afde1b9ddd1c45c3e634d0e846d98512
 Section: devel
 Description: custom libsrtp build
 
