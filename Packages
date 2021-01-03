@@ -136,10 +136,10 @@ Depends: automake,
  swig
 Conflicts: libvips-dev
 Filename: ./td-libvips-dev_8.10.5.deb
-Size: 16159904
-MD5sum: 3804d26f855f9a12725f06d3c1aca00c
-SHA1: 407bd37da8d929c9ed18412af826b07b3c4ac559
-SHA256: 3a097b1011f02fc52af5d994e388b4e33df2db5cbcf45248693c3d710ed6cf75
+Size: 16159768
+MD5sum: 500c060e71bab400b3128afe8042566b
+SHA1: c57cda4cdd8e4c58f23534b44812d9415c02facc
+SHA256: 51eb1fe7d575f2d2e87b46ef80e1bcc17085f9f8fd036e89975b85f103bbe328
 Section: devel
 Description: custom libvips build
 
@@ -171,10 +171,10 @@ Depends: automake,
  swig
 Conflicts: libvips-dev
 Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.5.deb
-Size: 16159904
-MD5sum: 3804d26f855f9a12725f06d3c1aca00c
-SHA1: 407bd37da8d929c9ed18412af826b07b3c4ac559
-SHA256: 3a097b1011f02fc52af5d994e388b4e33df2db5cbcf45248693c3d710ed6cf75
+Size: 16159768
+MD5sum: 500c060e71bab400b3128afe8042566b
+SHA1: c57cda4cdd8e4c58f23534b44812d9415c02facc
+SHA256: 51eb1fe7d575f2d2e87b46ef80e1bcc17085f9f8fd036e89975b85f103bbe328
 Section: devel
 Description: custom libvips build
 
