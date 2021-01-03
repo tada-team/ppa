@@ -10,10 +10,10 @@ Depends: gengetopt,
  td-libsrtp-dev,
  td-libwebsockets-dev
 Filename: ./td-janus_0.10.9.deb
-Size: 5704900
-MD5sum: a0ee6e4a8ca3637c8b0695c1bfd966b3
-SHA1: 533053d0b9d7c3d6a1ef1add29e8ab32e79ad5e6
-SHA256: 5b8b12a96d1b40d267fd30548da07eb8043406bcb2b3c30ad167b5c548e37416
+Size: 5704280
+MD5sum: 01dda5bd622e50798677708e702adc04
+SHA1: 6abcc9daea5a86d28abe6b9f0d383ac313e00ccc
+SHA256: d12fc0e45fafa847b556133ea6172a7359e72aa4ce3b3b89596190a3e3273a5a
 Section: devel
 Description: custom janus build
 
@@ -29,10 +29,10 @@ Depends: gengetopt,
  td-libsrtp-dev,
  td-libwebsockets-dev
 Filename: ./td-janus-dist/td-janus_0.10.9.deb
-Size: 5704900
-MD5sum: a0ee6e4a8ca3637c8b0695c1bfd966b3
-SHA1: 533053d0b9d7c3d6a1ef1add29e8ab32e79ad5e6
-SHA256: 5b8b12a96d1b40d267fd30548da07eb8043406bcb2b3c30ad167b5c548e37416
+Size: 5704280
+MD5sum: 01dda5bd622e50798677708e702adc04
+SHA1: 6abcc9daea5a86d28abe6b9f0d383ac313e00ccc
+SHA256: d12fc0e45fafa847b556133ea6172a7359e72aa4ce3b3b89596190a3e3273a5a
 Section: devel
 Description: custom janus build
 
@@ -199,10 +199,10 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libwebsockets-dev
 Filename: ./td-libwebsockets-dev_4.1.6.deb
-Size: 11299724
-MD5sum: ebbf6b6ec1f9775670f10de241056ddd
-SHA1: 5d540939c5ddfe26301a01f13802b76ea8bdd677
-SHA256: a38795b6b84da3070c32a90173d22ac2e2210e5e58afab07553a35cfd6094609
+Size: 11299784
+MD5sum: c3925a728e1d854864982dc87bf5780d
+SHA1: 486bdf54f2fdbbc1292f59a0e9c4a738dde31943
+SHA256: 550617e8e3338e9130fd11b95d93a44bd7a1ef134cad522f9e0427d88b7d1121
 Section: devel
 Description: custom libwebsockets build
 
@@ -213,10 +213,10 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libwebsockets-dev
 Filename: ./td-libwebsockets-dev-dist/td-libwebsockets-dev_4.1.6.deb
-Size: 11299724
-MD5sum: ebbf6b6ec1f9775670f10de241056ddd
-SHA1: 5d540939c5ddfe26301a01f13802b76ea8bdd677
-SHA256: a38795b6b84da3070c32a90173d22ac2e2210e5e58afab07553a35cfd6094609
+Size: 11299784
+MD5sum: c3925a728e1d854864982dc87bf5780d
+SHA1: 486bdf54f2fdbbc1292f59a0e9c4a738dde31943
+SHA256: 550617e8e3338e9130fd11b95d93a44bd7a1ef134cad522f9e0427d88b7d1121
 Section: devel
 Description: custom libwebsockets build
 
