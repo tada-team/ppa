@@ -261,15 +261,29 @@ Priority: optional
 Description: custom github.com/tada-team/process-exporter build
 
 Package: td-process-exporter
-Version: 1.0.1
+Version: 1.0.2
 Architecture: amd64
 Maintainer: Tada.team <info@tada.team>
 Installed-Size: 9476
-Filename: ./td-process-exporter-dist/td-process-exporter_1.0.1_amd64.deb
-Size: 2944480
-MD5sum: 82dbe7e01e38b4773961d1bc8af389c2
-SHA1: 42a523134ec0eb40426475ff992a6a84ce5d1e78
-SHA256: 0353608de95ce2a66e68b9d537795976510add5e366051fc951471f66cbb3ebb
+Filename: ./td-process-exporter_1.0.2_amd64.deb
+Size: 2943556
+MD5sum: 23a11602d31069ade6412c6d29ca0a46
+SHA1: 75a1ca42d3f11232f0e2c290348f5505ff126479
+SHA256: 7aea143000a326e0c183031f9ea2cbb4e750cedfea54eeb9ab4b8f4ee01afef2
+Section: admin
+Priority: optional
+Description: custom github.com/tada-team/process-exporter build
+
+Package: td-process-exporter
+Version: 1.0.2
+Architecture: amd64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 9476
+Filename: ./td-process-exporter-dist/td-process-exporter_1.0.2_amd64.deb
+Size: 2943556
+MD5sum: 23a11602d31069ade6412c6d29ca0a46
+SHA1: 75a1ca42d3f11232f0e2c290348f5505ff126479
+SHA256: 7aea143000a326e0c183031f9ea2cbb4e750cedfea54eeb9ab4b8f4ee01afef2
 Section: admin
 Priority: optional
 Description: custom github.com/tada-team/process-exporter build
