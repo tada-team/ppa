@@ -125,10 +125,10 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libsrtp-dev
 Filename: ./td-libsrtp-dev_2.3.0.deb
-Size: 401280
-MD5sum: 67cfba7b03179d1c234c10214b6619f9
-SHA1: ee50ea6e4178d47aad911ca2bf3cd87a777dab5c
-SHA256: 29a9540c0092c9fd3c35a420bfc10e47afde1b9ddd1c45c3e634d0e846d98512
+Size: 401036
+MD5sum: bbafbe281a13e13815bc84fc47358a47
+SHA1: ea2aaf4d772281de085cfb89be1eb5f0ae3b1371
+SHA256: d1d82e78783327589ffd737ccdbd110b4df2d65029b73f5a9d1ce24fabfda94c
 Section: devel
 Description: custom libsrtp build
 
@@ -139,10 +139,10 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libsrtp-dev
 Filename: ./td-libsrtp-dev-dist/td-libsrtp-dev_2.3.0.deb
-Size: 401280
-MD5sum: 67cfba7b03179d1c234c10214b6619f9
-SHA1: ee50ea6e4178d47aad911ca2bf3cd87a777dab5c
-SHA256: 29a9540c0092c9fd3c35a420bfc10e47afde1b9ddd1c45c3e634d0e846d98512
+Size: 401036
+MD5sum: bbafbe281a13e13815bc84fc47358a47
+SHA1: ea2aaf4d772281de085cfb89be1eb5f0ae3b1371
+SHA256: d1d82e78783327589ffd737ccdbd110b4df2d65029b73f5a9d1ce24fabfda94c
 Section: devel
 Description: custom libsrtp build
 
@@ -237,10 +237,10 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libwebsockets-dev
 Filename: ./td-libwebsockets-dev_4.1.6.deb
-Size: 11299784
-MD5sum: c3925a728e1d854864982dc87bf5780d
-SHA1: 486bdf54f2fdbbc1292f59a0e9c4a738dde31943
-SHA256: 550617e8e3338e9130fd11b95d93a44bd7a1ef134cad522f9e0427d88b7d1121
+Size: 11298452
+MD5sum: 3009c9c37f11d07a7911a789b126f582
+SHA1: e5629c582c6c6ce7f721954f58a9a0ca8990fa02
+SHA256: 2598ed475ebfa13e40c2162eb8649dc4a04b00ad02e1169102ebff35c936d026
 Section: devel
 Description: custom libwebsockets build
 
@@ -251,10 +251,10 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libwebsockets-dev
 Filename: ./td-libwebsockets-dev-dist/td-libwebsockets-dev_4.1.6.deb
-Size: 11299784
-MD5sum: c3925a728e1d854864982dc87bf5780d
-SHA1: 486bdf54f2fdbbc1292f59a0e9c4a738dde31943
-SHA256: 550617e8e3338e9130fd11b95d93a44bd7a1ef134cad522f9e0427d88b7d1121
+Size: 11298452
+MD5sum: 3009c9c37f11d07a7911a789b126f582
+SHA1: e5629c582c6c6ce7f721954f58a9a0ca8990fa02
+SHA256: 2598ed475ebfa13e40c2162eb8649dc4a04b00ad02e1169102ebff35c936d026
 Section: devel
 Description: custom libwebsockets build
 
