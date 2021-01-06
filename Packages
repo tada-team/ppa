@@ -82,10 +82,10 @@ Depends: build-essential,
  gtk-doc-tools
 Conflicts: libnice-dev
 Filename: ./td-libnice-dev_0.1.16.deb
-Size: 323552
-MD5sum: 47cbf6f9c9a67ad3258c06f18f6ea248
-SHA1: 8b4c89d13117519544e07462af9d65cc332d2389
-SHA256: f97defcc570f7b40f5e6547b0ddaee90c5d6167c67909b3a6a20b5249869e121
+Size: 323524
+MD5sum: e147b54fba2c9abdfdcb849612a2a1dd
+SHA1: 4068d342ede191bd8cb888a7e73d1f8ddf0e9525
+SHA256: 5144bc665c84dba8e3f936e2bb05108dd76e4bd5f8a04235056b57af4503d688
 Section: devel
 Description: custom libnice build
 
@@ -97,10 +97,10 @@ Depends: build-essential,
  gtk-doc-tools
 Conflicts: libnice-dev
 Filename: ./td-libnice-dev-dist/td-libnice-dev_0.1.16.deb
-Size: 323552
-MD5sum: 47cbf6f9c9a67ad3258c06f18f6ea248
-SHA1: 8b4c89d13117519544e07462af9d65cc332d2389
-SHA256: f97defcc570f7b40f5e6547b0ddaee90c5d6167c67909b3a6a20b5249869e121
+Size: 323524
+MD5sum: e147b54fba2c9abdfdcb849612a2a1dd
+SHA1: 4068d342ede191bd8cb888a7e73d1f8ddf0e9525
+SHA256: 5144bc665c84dba8e3f936e2bb05108dd76e4bd5f8a04235056b57af4503d688
 Section: devel
 Description: custom libnice build
 
@@ -174,10 +174,10 @@ Depends: automake,
  swig
 Conflicts: libvips-dev
 Filename: ./td-libvips-dev_8.10.5.deb
-Size: 16159768
-MD5sum: 500c060e71bab400b3128afe8042566b
-SHA1: c57cda4cdd8e4c58f23534b44812d9415c02facc
-SHA256: 51eb1fe7d575f2d2e87b46ef80e1bcc17085f9f8fd036e89975b85f103bbe328
+Size: 16161084
+MD5sum: d2105776c525559e1d6efa1a4d371bd6
+SHA1: 36ed0cf763adf0691874edf80054bd52219f67b5
+SHA256: 0d4cb67888286f5667cd8b26a18d14d0a596ec7f5d1f6b35457faddecaefb305
 Section: devel
 Description: custom libvips build
 
@@ -209,10 +209,10 @@ Depends: automake,
  swig
 Conflicts: libvips-dev
 Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.5.deb
-Size: 16159768
-MD5sum: 500c060e71bab400b3128afe8042566b
-SHA1: c57cda4cdd8e4c58f23534b44812d9415c02facc
-SHA256: 51eb1fe7d575f2d2e87b46ef80e1bcc17085f9f8fd036e89975b85f103bbe328
+Size: 16161084
+MD5sum: d2105776c525559e1d6efa1a4d371bd6
+SHA1: 36ed0cf763adf0691874edf80054bd52219f67b5
+SHA256: 0d4cb67888286f5667cd8b26a18d14d0a596ec7f5d1f6b35457faddecaefb305
 Section: devel
 Description: custom libvips build
 
