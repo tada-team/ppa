@@ -79,13 +79,14 @@ Version: 0.1.16
 Architecture: all
 Maintainer: Tada.team <info@tada.team>
 Depends: build-essential,
+ libssl-dev,
  gtk-doc-tools
 Conflicts: libnice-dev
 Filename: ./td-libnice-dev_0.1.16.deb
-Size: 323524
-MD5sum: e147b54fba2c9abdfdcb849612a2a1dd
-SHA1: 4068d342ede191bd8cb888a7e73d1f8ddf0e9525
-SHA256: 5144bc665c84dba8e3f936e2bb05108dd76e4bd5f8a04235056b57af4503d688
+Size: 323540
+MD5sum: 14940c3d788ef63965a75f4502267e77
+SHA1: a8b0ec53fd653c47dc72a0dc04a7c6eca8110b43
+SHA256: f3ddabab818b76881f55cbb2daef0d1956ebf084a207adce4c52f8e1caeb9ad6
 Section: devel
 Description: custom libnice build
 
@@ -94,13 +95,14 @@ Version: 0.1.16
 Architecture: all
 Maintainer: Tada.team <info@tada.team>
 Depends: build-essential,
+ libssl-dev,
  gtk-doc-tools
 Conflicts: libnice-dev
 Filename: ./td-libnice-dev-dist/td-libnice-dev_0.1.16.deb
-Size: 323524
-MD5sum: e147b54fba2c9abdfdcb849612a2a1dd
-SHA1: 4068d342ede191bd8cb888a7e73d1f8ddf0e9525
-SHA256: 5144bc665c84dba8e3f936e2bb05108dd76e4bd5f8a04235056b57af4503d688
+Size: 323540
+MD5sum: 14940c3d788ef63965a75f4502267e77
+SHA1: a8b0ec53fd653c47dc72a0dc04a7c6eca8110b43
+SHA256: f3ddabab818b76881f55cbb2daef0d1956ebf084a207adce4c52f8e1caeb9ad6
 Section: devel
 Description: custom libnice build
 
