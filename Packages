@@ -225,10 +225,10 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libwebsockets-dev
 Filename: ./td-libwebsockets-dev_3.2.0.deb
-Size: 5596740
-MD5sum: 5930e364bd28f6f0bff5720dca1db572
-SHA1: 7619814071aa0bc0ee249d036c3873449220df58
-SHA256: 96e7e1b6ebbbe8b1294ea4090d55ef31954a0afa9e7ae6241f4b6949164c49f0
+Size: 5598376
+MD5sum: dbb5f7738eac326b62d55a4022abd86b
+SHA1: 7d5f2c1c8eb88c1ee6e1b3d82de90374ebcac1dd
+SHA256: cb9d66294fddddb73fe796659b5f802107e689bf913c89bf1547533ef0ea17f5
 Section: devel
 Description: custom libwebsockets build
 
@@ -239,10 +239,10 @@ Maintainer: Tada.team <info@tada.team>
 Depends: build-essential
 Conflicts: libwebsockets-dev
 Filename: ./td-libwebsockets-dev-dist/td-libwebsockets-dev_3.2.0.deb
-Size: 5596740
-MD5sum: 5930e364bd28f6f0bff5720dca1db572
-SHA1: 7619814071aa0bc0ee249d036c3873449220df58
-SHA256: 96e7e1b6ebbbe8b1294ea4090d55ef31954a0afa9e7ae6241f4b6949164c49f0
+Size: 5598376
+MD5sum: dbb5f7738eac326b62d55a4022abd86b
+SHA1: 7d5f2c1c8eb88c1ee6e1b3d82de90374ebcac1dd
+SHA256: cb9d66294fddddb73fe796659b5f802107e689bf913c89bf1547533ef0ea17f5
 Section: devel
 Description: custom libwebsockets build
 
