@@ -184,7 +184,7 @@ Section: devel
 Description: custom libvips build
 
 Package: td-libvips-dev
-Version: 8.10.5
+Version: 8.10.5+1
 Architecture: all
 Maintainer: Tada.team <info@tada.team>
 Depends: automake,
@@ -210,11 +210,46 @@ Depends: automake,
  libxml2-dev,
  swig
 Conflicts: libvips-dev
-Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.5.deb
-Size: 16161084
-MD5sum: d2105776c525559e1d6efa1a4d371bd6
-SHA1: 36ed0cf763adf0691874edf80054bd52219f67b5
-SHA256: 0d4cb67888286f5667cd8b26a18d14d0a596ec7f5d1f6b35457faddecaefb305
+Filename: ./td-libvips-dev_8.10.5+1.deb
+Size: 16157864
+MD5sum: 7d6d054ce1751e140bf5642094824ea5
+SHA1: cf120c6ab179742cf80b2ca0579d58b4525301b3
+SHA256: ddc5376dda8e9bcf09d22415b59f152981fe1bfa5a57034654d006a9426584c1
+Section: devel
+Description: custom libvips build
+
+Package: td-libvips-dev
+Version: 8.10.5+1
+Architecture: all
+Maintainer: Tada.team <info@tada.team>
+Depends: automake,
+ build-essential,
+ cmake,
+ giflib-tools,
+ gobject-introspection,
+ gtk-doc-tools,
+ libexif-dev,
+ libexpat1-dev,
+ libgif-dev,
+ libgif7,
+ libglib2.0-dev,
+ libgsf-1-dev,
+ libjpeg-dev,
+ liblcms2-dev,
+ libmagickcore-dev,
+ libpng-dev,
+ libpoppler-glib-dev,
+ libtiff5-dev,
+ libtool,
+ libwebp-dev,
+ libxml2-dev,
+ swig
+Conflicts: libvips-dev
+Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.5+1.deb
+Size: 16157864
+MD5sum: 7d6d054ce1751e140bf5642094824ea5
+SHA1: cf120c6ab179742cf80b2ca0579d58b4525301b3
+SHA256: ddc5376dda8e9bcf09d22415b59f152981fe1bfa5a57034654d006a9426584c1
 Section: devel
 Description: custom libvips build
 
