@@ -291,29 +291,6 @@ Description: custom libvips build
 Package: td-libwebsockets
 Source: libwebsockets
 Version: 3.2.2-1
-Architecture: arm64
-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 349
-Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
-Filename: ./td-libwebsockets_3.2.2-1_arm64.deb
-Size: 132388
-MD5sum: 7db2797e65e70c7fb64456f343b52ec7
-SHA1: daebbbb366ad38fa741e010663bef5e447556d56
-SHA256: d212a63a4bcd1fbf6875ebcd4e6fd551d12d277022ee907530001950df992fe4
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://libwebsockets.org/
-Description: lightweight C websockets library
- Libwebsockets is a lightweight pure C library for both websockets
- clients and servers built to use minimal CPU and memory resources
- and provide fast throughput in both directions.
- .
- This package contains the shared library.
-
-Package: td-libwebsockets
-Source: libwebsockets
-Version: 3.2.2-1
 Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 389
@@ -341,7 +318,7 @@ Architecture: arm64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 349
 Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
-Filename: ./td-libwebsockets-dev-dist/td-libwebsockets_3.2.2-1_arm64.deb
+Filename: ./td-libwebsockets_3.2.2-1_arm64.deb
 Size: 132388
 MD5sum: 7db2797e65e70c7fb64456f343b52ec7
 SHA1: daebbbb366ad38fa741e010663bef5e447556d56
@@ -369,6 +346,29 @@ Size: 153492
 MD5sum: 68911ac80aad638307132e70b100b9ad
 SHA1: 04439781f1a8b3f3ec2779878581ed2bcd86fff2
 SHA256: c285c4b5f5fdf0cfbb3e6c93256af02309a75c0e92a73c0aac46701047386f4c
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://libwebsockets.org/
+Description: lightweight C websockets library
+ Libwebsockets is a lightweight pure C library for both websockets
+ clients and servers built to use minimal CPU and memory resources
+ and provide fast throughput in both directions.
+ .
+ This package contains the shared library.
+
+Package: td-libwebsockets
+Source: libwebsockets
+Version: 3.2.2-1
+Architecture: arm64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 349
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
+Filename: ./td-libwebsockets-dev-dist/td-libwebsockets_3.2.2-1_arm64.deb
+Size: 132388
+MD5sum: 7db2797e65e70c7fb64456f343b52ec7
+SHA1: daebbbb366ad38fa741e010663bef5e447556d56
+SHA256: d212a63a4bcd1fbf6875ebcd4e6fd551d12d277022ee907530001950df992fe4
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -507,29 +507,6 @@ Description: custom libwebsockets build
 Package: td-libwebsockets-test-server
 Source: libwebsockets
 Version: 3.2.2-1
-Architecture: amd64
-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 1062
-Depends: td-libwebsockets (= 3.2.2-1), td-libwebsockets-test-server-common (= 3.2.2-1), libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
-Filename: ./td-libwebsockets-test-server_3.2.2-1_amd64.deb
-Size: 184548
-MD5sum: b58f0fa4642007034e69c163b180c7ce
-SHA1: bd43d0b4832254d700fc16249a0573f9ca155387
-SHA256: 3f93ff703aea5e4a3180ba912e5c694b40f511384456ba58be0ed72c685d8d6d
-Section: utils
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://libwebsockets.org/
-Description: lightweight C websockets library - test servers
- Libwebsockets is a lightweight pure C library for both websockets
- clients and servers built to use minimal CPU and memory resources
- and provide fast throughput in both directions.
- .
- This package contains several demonstration test servers.
-
-Package: td-libwebsockets-test-server
-Source: libwebsockets
-Version: 3.2.2-1
 Architecture: arm64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 941
@@ -557,7 +534,7 @@ Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 1062
 Depends: td-libwebsockets (= 3.2.2-1), td-libwebsockets-test-server-common (= 3.2.2-1), libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
-Filename: ./td-libwebsockets-dev-dist/td-libwebsockets-test-server_3.2.2-1_amd64.deb
+Filename: ./td-libwebsockets-test-server_3.2.2-1_amd64.deb
 Size: 184548
 MD5sum: b58f0fa4642007034e69c163b180c7ce
 SHA1: bd43d0b4832254d700fc16249a0573f9ca155387
@@ -585,6 +562,29 @@ Size: 157992
 MD5sum: c0faaa970501332ca746c533201531ed
 SHA1: 3a1c09dbfdc8de18f8981750bca1ff22fa21bde9
 SHA256: 80bf5a1cf172cb93b8a07592250bd8e32307732a8f997c4d3b859d6a2de934f5
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://libwebsockets.org/
+Description: lightweight C websockets library - test servers
+ Libwebsockets is a lightweight pure C library for both websockets
+ clients and servers built to use minimal CPU and memory resources
+ and provide fast throughput in both directions.
+ .
+ This package contains several demonstration test servers.
+
+Package: td-libwebsockets-test-server
+Source: libwebsockets
+Version: 3.2.2-1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 1062
+Depends: td-libwebsockets (= 3.2.2-1), td-libwebsockets-test-server-common (= 3.2.2-1), libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
+Filename: ./td-libwebsockets-dev-dist/td-libwebsockets-test-server_3.2.2-1_amd64.deb
+Size: 184548
+MD5sum: b58f0fa4642007034e69c163b180c7ce
+SHA1: bd43d0b4832254d700fc16249a0573f9ca155387
+SHA256: 3f93ff703aea5e4a3180ba912e5c694b40f511384456ba58be0ed72c685d8d6d
 Section: utils
 Priority: optional
 Multi-Arch: foreign
@@ -686,20 +686,6 @@ Description: custom github.com/tada-team/process-exporter build
 
 Package: td-process-exporter
 Version: 1.0.2
-Architecture: amd64
-Maintainer: Tada.team <info@tada.team>
-Installed-Size: 8539
-Filename: ./td-process-exporter_1.0.2_amd64.deb
-Size: 2584652
-MD5sum: 05732d1547c9cf3959610882f4c0031b
-SHA1: c4f8c0838c4a41e96552ac7fe46c86f3c40baaa6
-SHA256: cb2e85db516b3e758524e707a8d4238073aefffff3314fb8946285254e2de8b8
-Section: admin
-Priority: optional
-Description: custom github.com/tada-team/process-exporter build
-
-Package: td-process-exporter
-Version: 1.0.2
 Architecture: arm64
 Maintainer: Tada.team <info@tada.team>
 Installed-Size: 7805
@@ -708,6 +694,20 @@ Size: 2183940
 MD5sum: 7e414bed79ef98ac8c015d394a1bc800
 SHA1: 55a822761589d73bcdb26b51bf38a79068924249
 SHA256: 349bac8059669960252581931029fea909c0ba917036c499ea33894e76236c2a
+Section: admin
+Priority: optional
+Description: custom github.com/tada-team/process-exporter build
+
+Package: td-process-exporter
+Version: 1.0.2
+Architecture: amd64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 8539
+Filename: ./td-process-exporter_1.0.2_amd64.deb
+Size: 2584652
+MD5sum: 05732d1547c9cf3959610882f4c0031b
+SHA1: c4f8c0838c4a41e96552ac7fe46c86f3c40baaa6
+SHA256: cb2e85db516b3e758524e707a8d4238073aefffff3314fb8946285254e2de8b8
 Section: admin
 Priority: optional
 Description: custom github.com/tada-team/process-exporter build
