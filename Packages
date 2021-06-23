@@ -256,18 +256,18 @@ Description: custom libvips build
 Package: td-libvips-dev
 Source: vips
 Version: 8.10.5-3
-Architecture: arm64
+Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 452
 Depends: td-libvips42 (= 8.10.5-3), libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
 Recommends: td-libvips-tools
 Suggests: nip2
 Conflicts: libvips-dev
-Filename: ./td-libvips-dev_8.10.5-3_arm64.deb
-Size: 71124
-MD5sum: 1579fbfd92c0913d5d97269cb82abafd
-SHA1: 5c5709b44583a5a2886113762d9ab04ac98200ee
-SHA256: 84913a5435600b8b1af1c5a4e5b3ee01550dd74a8ab731c9524f59813419f3b5
+Filename: ./td-libvips-dev_8.10.5-3_amd64.deb
+Size: 71132
+MD5sum: f10ccea67e990d052fdae781f9cbeb19
+SHA1: 32091aa0dba3f1d89c336f593f8fea921fe77b7e
+SHA256: 08394199dc7663e891055db6213a8b56166bbc69cc804d1f6585e8bb81436339
 Section: libdevel
 Priority: optional
 Homepage: https://libvips.github.io/libvips/
@@ -289,18 +289,18 @@ Description: image processing system good for very large ones (dev)
 Package: td-libvips-dev
 Source: vips
 Version: 8.10.5-3
-Architecture: amd64
+Architecture: arm64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 452
 Depends: td-libvips42 (= 8.10.5-3), libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
 Recommends: td-libvips-tools
 Suggests: nip2
 Conflicts: libvips-dev
-Filename: ./td-libvips-dev_8.10.5-3_amd64.deb
-Size: 71132
-MD5sum: f10ccea67e990d052fdae781f9cbeb19
-SHA1: 32091aa0dba3f1d89c336f593f8fea921fe77b7e
-SHA256: 08394199dc7663e891055db6213a8b56166bbc69cc804d1f6585e8bb81436339
+Filename: ./td-libvips-dev_8.10.5-3_arm64.deb
+Size: 71124
+MD5sum: 1579fbfd92c0913d5d97269cb82abafd
+SHA1: 5c5709b44583a5a2886113762d9ab04ac98200ee
+SHA256: 84913a5435600b8b1af1c5a4e5b3ee01550dd74a8ab731c9524f59813419f3b5
 Section: libdevel
 Priority: optional
 Homepage: https://libvips.github.io/libvips/
@@ -502,39 +502,6 @@ Description: image processing system good for very large ones (tools)
 Package: td-libvips42
 Source: vips
 Version: 8.10.5-3
-Architecture: amd64
-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 3424
-Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libexif12 (>= 0.6.21-1~), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.0), libgif7 (>= 5.1), libglib2.0-0 (>= 2.39.91), libgsf-1-114 (>= 1.14.8), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628), libmagickcore-6.q16-3 (>= 8:6.9.6.8), libopenexr22, libpng16-16 (>= 1.6.2-1), libpoppler-glib8 (>= 0.22.1), librsvg2-2 (>= 2.32.0), libstdc++6 (>= 5.2), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), zlib1g (>= 1:1.1.4)
-Conflicts: libvips42
-Provides: td-libvips
-Filename: ./td-libvips42_8.10.5-3_amd64.deb
-Size: 1038604
-MD5sum: c681ab2cdebf1510f224ed236f14c930
-SHA1: 405c9aa0a87bcc607402f88559b4bbf0dae066b8
-SHA256: 99e13ca20658e5d83deca7b3de450a0a90af03a285314699fde2c54bcdc64d63
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://libvips.github.io/libvips/
-Description: image processing system good for very large ones
- VIPS is an image processing system designed with efficiency in mind.
- It is good with large images (ones that larger than the amount of RAM in
- your machine), and for working with colour.  It can perform many
- image manipulation tasks much faster than other packages such as
- ImageMagick and the GIMP and includes some special features such as
- creating single "mosaic" images from multiple parts.
- .
- VIPS consists of two main components: an image processing library
- with some command-line tools and a spreadsheet-like graphical user
- interface.  The graphical interface is available in the nip2 package.
- .
- This package includes runtime libraries needed to run applications
- linked with the vips library.
-
-Package: td-libvips42
-Source: vips
-Version: 8.10.5-3
 Architecture: arm64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 3081
@@ -565,28 +532,38 @@ Description: image processing system good for very large ones
  This package includes runtime libraries needed to run applications
  linked with the vips library.
 
-Package: td-libwebsockets
-Source: libwebsockets
-Version: 3.2.2-1
+Package: td-libvips42
+Source: vips
+Version: 8.10.5-3
 Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 389
-Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
-Filename: ./td-libwebsockets_3.2.2-1_amd64.deb
-Size: 153492
-MD5sum: 68911ac80aad638307132e70b100b9ad
-SHA1: 04439781f1a8b3f3ec2779878581ed2bcd86fff2
-SHA256: c285c4b5f5fdf0cfbb3e6c93256af02309a75c0e92a73c0aac46701047386f4c
+Installed-Size: 3424
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libexif12 (>= 0.6.21-1~), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.0), libgif7 (>= 5.1), libglib2.0-0 (>= 2.39.91), libgsf-1-114 (>= 1.14.8), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628), libmagickcore-6.q16-3 (>= 8:6.9.6.8), libopenexr22, libpng16-16 (>= 1.6.2-1), libpoppler-glib8 (>= 0.22.1), librsvg2-2 (>= 2.32.0), libstdc++6 (>= 5.2), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), zlib1g (>= 1:1.1.4)
+Conflicts: libvips42
+Provides: td-libvips
+Filename: ./td-libvips42_8.10.5-3_amd64.deb
+Size: 1038604
+MD5sum: c681ab2cdebf1510f224ed236f14c930
+SHA1: 405c9aa0a87bcc607402f88559b4bbf0dae066b8
+SHA256: 99e13ca20658e5d83deca7b3de450a0a90af03a285314699fde2c54bcdc64d63
 Section: libs
 Priority: optional
 Multi-Arch: same
-Homepage: https://libwebsockets.org/
-Description: lightweight C websockets library
- Libwebsockets is a lightweight pure C library for both websockets
- clients and servers built to use minimal CPU and memory resources
- and provide fast throughput in both directions.
+Homepage: https://libvips.github.io/libvips/
+Description: image processing system good for very large ones
+ VIPS is an image processing system designed with efficiency in mind.
+ It is good with large images (ones that larger than the amount of RAM in
+ your machine), and for working with colour.  It can perform many
+ image manipulation tasks much faster than other packages such as
+ ImageMagick and the GIMP and includes some special features such as
+ creating single "mosaic" images from multiple parts.
  .
- This package contains the shared library.
+ VIPS consists of two main components: an image processing library
+ with some command-line tools and a spreadsheet-like graphical user
+ interface.  The graphical interface is available in the nip2 package.
+ .
+ This package includes runtime libraries needed to run applications
+ linked with the vips library.
 
 Package: td-libwebsockets
 Source: libwebsockets
@@ -618,7 +595,7 @@ Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 389
 Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
-Filename: ./td-libwebsockets-dev-dist/td-libwebsockets_3.2.2-1_amd64.deb
+Filename: ./td-libwebsockets_3.2.2-1_amd64.deb
 Size: 153492
 MD5sum: 68911ac80aad638307132e70b100b9ad
 SHA1: 04439781f1a8b3f3ec2779878581ed2bcd86fff2
@@ -646,6 +623,29 @@ Size: 132388
 MD5sum: 7db2797e65e70c7fb64456f343b52ec7
 SHA1: daebbbb366ad38fa741e010663bef5e447556d56
 SHA256: d212a63a4bcd1fbf6875ebcd4e6fd551d12d277022ee907530001950df992fe4
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://libwebsockets.org/
+Description: lightweight C websockets library
+ Libwebsockets is a lightweight pure C library for both websockets
+ clients and servers built to use minimal CPU and memory resources
+ and provide fast throughput in both directions.
+ .
+ This package contains the shared library.
+
+Package: td-libwebsockets
+Source: libwebsockets
+Version: 3.2.2-1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 389
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
+Filename: ./td-libwebsockets-dev-dist/td-libwebsockets_3.2.2-1_amd64.deb
+Size: 153492
+MD5sum: 68911ac80aad638307132e70b100b9ad
+SHA1: 04439781f1a8b3f3ec2779878581ed2bcd86fff2
+SHA256: c285c4b5f5fdf0cfbb3e6c93256af02309a75c0e92a73c0aac46701047386f4c
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -766,20 +766,6 @@ Description: lightweight C websockets library - development files
  .
  This package contains the header files needed for developing programs
  using libwebsockets and a static library.
-
-Package: td-libwebsockets-dev
-Version: 4.1.6
-Architecture: all
-Maintainer: Tada.team <info@tada.team>
-Depends: build-essential
-Conflicts: libwebsockets-dev
-Filename: ./td-libwebsockets-dev_4.1.6.deb
-Size: 11298452
-MD5sum: 3009c9c37f11d07a7911a789b126f582
-SHA1: e5629c582c6c6ce7f721954f58a9a0ca8990fa02
-SHA256: 2598ed475ebfa13e40c2162eb8649dc4a04b00ad02e1169102ebff35c936d026
-Section: devel
-Description: custom libwebsockets build
 
 Package: td-libwebsockets-test-server
 Source: libwebsockets
@@ -923,6 +909,18 @@ Description: lightweight C websockets library - test servers data
 
 Package: td-process-exporter
 Version: 1.0.0
+Architecture: i386
+Maintainer: Tada.team <info@tada.team>
+Filename: ./td-process-exporter_1.0.0_i386.deb
+Size: 5668972
+MD5sum: 4f4a88963b2a7948224d4dc0678fb37b
+SHA1: 312e5e89be2455b1ed4e9dcd9dab7dce8bd5a5b7
+SHA256: 3dd6ce863dcea66e083d278e9896228762b31777367c84c30415fe593ea73e40
+Section: admin
+Description: custom github.com/tada-team/process-exporter build
+
+Package: td-process-exporter
+Version: 1.0.0
 Architecture: amd64
 Maintainer: Tada.team <info@tada.team>
 Installed-Size: 9476
@@ -936,18 +934,6 @@ Priority: optional
 Description: custom github.com/tada-team/process-exporter build
 
 Package: td-process-exporter
-Version: 1.0.0
-Architecture: i386
-Maintainer: Tada.team <info@tada.team>
-Filename: ./td-process-exporter_1.0.0_i386.deb
-Size: 5668972
-MD5sum: 4f4a88963b2a7948224d4dc0678fb37b
-SHA1: 312e5e89be2455b1ed4e9dcd9dab7dce8bd5a5b7
-SHA256: 3dd6ce863dcea66e083d278e9896228762b31777367c84c30415fe593ea73e40
-Section: admin
-Description: custom github.com/tada-team/process-exporter build
-
-Package: td-process-exporter
 Version: 1.0.1
 Architecture: amd64
 Maintainer: Tada.team <info@tada.team>
@@ -957,20 +943,6 @@ Size: 2944480
 MD5sum: 82dbe7e01e38b4773961d1bc8af389c2
 SHA1: 42a523134ec0eb40426475ff992a6a84ce5d1e78
 SHA256: 0353608de95ce2a66e68b9d537795976510add5e366051fc951471f66cbb3ebb
-Section: admin
-Priority: optional
-Description: custom github.com/tada-team/process-exporter build
-
-Package: td-process-exporter
-Version: 1.0.2
-Architecture: arm64
-Maintainer: Tada.team <info@tada.team>
-Installed-Size: 7805
-Filename: ./td-process-exporter_1.0.2_arm64.deb
-Size: 2183940
-MD5sum: 7e414bed79ef98ac8c015d394a1bc800
-SHA1: 55a822761589d73bcdb26b51bf38a79068924249
-SHA256: 349bac8059669960252581931029fea909c0ba917036c499ea33894e76236c2a
 Section: admin
 Priority: optional
 Description: custom github.com/tada-team/process-exporter build
@@ -990,15 +962,15 @@ Priority: optional
 Description: custom github.com/tada-team/process-exporter build
 
 Package: td-process-exporter
-Version: 1.0.3
-Architecture: amd64
+Version: 1.0.2
+Architecture: arm64
 Maintainer: Tada.team <info@tada.team>
-Installed-Size: 8539
-Filename: ./td-process-exporter_1.0.3_amd64.deb
-Size: 2585224
-MD5sum: 981a159da0623e35f5847b8d658d0519
-SHA1: 89007ecef1a99550404d30f3778064d9f73f2fcf
-SHA256: c7db74fcc555279ae32c5031198df758cfd3e80a91524c050b77c0c30af5cd3b
+Installed-Size: 7805
+Filename: ./td-process-exporter_1.0.2_arm64.deb
+Size: 2183940
+MD5sum: 7e414bed79ef98ac8c015d394a1bc800
+SHA1: 55a822761589d73bcdb26b51bf38a79068924249
+SHA256: 349bac8059669960252581931029fea909c0ba917036c499ea33894e76236c2a
 Section: admin
 Priority: optional
 Description: custom github.com/tada-team/process-exporter build
@@ -1022,7 +994,7 @@ Version: 1.0.3
 Architecture: amd64
 Maintainer: Tada.team <info@tada.team>
 Installed-Size: 8539
-Filename: ./td-process-exporter-dist/td-process-exporter_1.0.3_amd64.deb
+Filename: ./td-process-exporter_1.0.3_amd64.deb
 Size: 2585224
 MD5sum: 981a159da0623e35f5847b8d658d0519
 SHA1: 89007ecef1a99550404d30f3778064d9f73f2fcf
@@ -1041,6 +1013,20 @@ Size: 2184448
 MD5sum: f716a3b8e285f0855b6d361fedd77b3e
 SHA1: 5583581aa7571b5ee69b987f6b398d31ba136609
 SHA256: 44f4f96200e91a8e1bd0daa7e43f05a9bde341e7d5bd89dc419f7fda4cb4556d
+Section: admin
+Priority: optional
+Description: custom github.com/tada-team/process-exporter build
+
+Package: td-process-exporter
+Version: 1.0.3
+Architecture: amd64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 8539
+Filename: ./td-process-exporter-dist/td-process-exporter_1.0.3_amd64.deb
+Size: 2585224
+MD5sum: 981a159da0623e35f5847b8d658d0519
+SHA1: 89007ecef1a99550404d30f3778064d9f73f2fcf
+SHA256: c7db74fcc555279ae32c5031198df758cfd3e80a91524c050b77c0c30af5cd3b
 Section: admin
 Priority: optional
 Description: custom github.com/tada-team/process-exporter build
