@@ -138,38 +138,6 @@ Section: devel
 Priority: optional
 Description: custom libnice build
 
-Package: td-libnice-dev
-Version: 0.1.16-2
-Architecture: arm64
-Maintainer: Tada.team <info@tada.team>
-Installed-Size: 551
-Depends: libssl-dev
-Conflicts: libnice-dev
-Filename: ./td-libvips-dev-dist/td-libnice-dev_0.1.16-2_arm64.deb
-Size: 140836
-MD5sum: 0063bc9e3ee1794a3110336c0229c995
-SHA1: 0639bd5f503b44e116a1b3b68df55c2034a10ac0
-SHA256: c02ad2f56a544eb0526d13150d4a8b349ea03afa864355ae72508c3de8192d80
-Section: devel
-Priority: optional
-Description: custom libnice build
-
-Package: td-libnice-dev
-Version: 0.1.16-2
-Architecture: amd64
-Maintainer: Tada.team <info@tada.team>
-Installed-Size: 598
-Depends: libssl-dev
-Conflicts: libnice-dev
-Filename: ./td-libvips-dev-dist/td-libnice-dev_0.1.16-2_amd64.deb
-Size: 164404
-MD5sum: 3477d0878e52f5f1b80cb4122eb1d550
-SHA1: 1897eca8955306c2f41dbf2569b8a4c1b7635158
-SHA256: 36683472a1079e9ba2302904b2c3db18622f2f9b44928dd5baa76501cc6db134
-Section: devel
-Priority: optional
-Description: custom libnice build
-
 Package: td-libsrtp-dev
 Version: 2.2.0
 Architecture: all
@@ -210,6 +178,70 @@ MD5sum: aa313fc5f04857e34ace9e699760e01c
 SHA1: 9c94aef99b50d90f70a6bcd0a0e86d50c61030d2
 SHA256: 757a5b5dc8d6bbb3bac19b2a1ccb02ba045014e8963b6e13697d5eb79e0ddd69
 Section: devel
+Description: custom libsrtp build
+
+Package: td-libsrtp-dev
+Version: 2.3.0-2
+Architecture: arm64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 228
+Depends: libssl-dev
+Conflicts: libsrtp-dev
+Filename: ./td-libsrtp-dev_2.3.0-2_arm64.deb
+Size: 41688
+MD5sum: bd863432a3881afd69b619b12c66d717
+SHA1: 1878e07f790329611c34c95039e023b8c4fdb16d
+SHA256: 0fdecdcb67ee1766ac315604d8daaf8716c6a1e8cef2afa7979346efed515d1c
+Section: devel
+Priority: optional
+Description: custom libsrtp build
+
+Package: td-libsrtp-dev
+Version: 2.3.0-2
+Architecture: amd64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 238
+Depends: libssl-dev
+Conflicts: libsrtp-dev
+Filename: ./td-libsrtp-dev_2.3.0-2_amd64.deb
+Size: 44520
+MD5sum: 5c016c6da494a872817a0c5b022cbe9a
+SHA1: 547de219bc5ab6175fc2f0e494a9d8b840bcc4ad
+SHA256: d08962f5924a636a0c65893b25ac3bc074fa544e90800a1d685042a3eb3a0dab
+Section: devel
+Priority: optional
+Description: custom libsrtp build
+
+Package: td-libsrtp-dev
+Version: 2.3.0-2
+Architecture: arm64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 228
+Depends: libssl-dev
+Conflicts: libsrtp-dev
+Filename: ./td-libvips-dev-dist/td-libsrtp-dev_2.3.0-2_arm64.deb
+Size: 41688
+MD5sum: bd863432a3881afd69b619b12c66d717
+SHA1: 1878e07f790329611c34c95039e023b8c4fdb16d
+SHA256: 0fdecdcb67ee1766ac315604d8daaf8716c6a1e8cef2afa7979346efed515d1c
+Section: devel
+Priority: optional
+Description: custom libsrtp build
+
+Package: td-libsrtp-dev
+Version: 2.3.0-2
+Architecture: amd64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 238
+Depends: libssl-dev
+Conflicts: libsrtp-dev
+Filename: ./td-libvips-dev-dist/td-libsrtp-dev_2.3.0-2_amd64.deb
+Size: 44520
+MD5sum: 5c016c6da494a872817a0c5b022cbe9a
+SHA1: 547de219bc5ab6175fc2f0e494a9d8b840bcc4ad
+SHA256: d08962f5924a636a0c65893b25ac3bc074fa544e90800a1d685042a3eb3a0dab
+Section: devel
+Priority: optional
 Description: custom libsrtp build
 
 Package: td-libvips-dev
