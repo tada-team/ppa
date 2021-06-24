@@ -106,6 +106,70 @@ SHA256: f3ddabab818b76881f55cbb2daef0d1956ebf084a207adce4c52f8e1caeb9ad6
 Section: devel
 Description: custom libnice build
 
+Package: td-libnice-dev
+Version: 0.1.16-2
+Architecture: arm64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 551
+Depends: libssl-dev
+Conflicts: libnice-dev
+Filename: ./td-libnice-dev_0.1.16-2_arm64.deb
+Size: 140836
+MD5sum: 0063bc9e3ee1794a3110336c0229c995
+SHA1: 0639bd5f503b44e116a1b3b68df55c2034a10ac0
+SHA256: c02ad2f56a544eb0526d13150d4a8b349ea03afa864355ae72508c3de8192d80
+Section: devel
+Priority: optional
+Description: custom libnice build
+
+Package: td-libnice-dev
+Version: 0.1.16-2
+Architecture: amd64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 598
+Depends: libssl-dev
+Conflicts: libnice-dev
+Filename: ./td-libnice-dev_0.1.16-2_amd64.deb
+Size: 164404
+MD5sum: 3477d0878e52f5f1b80cb4122eb1d550
+SHA1: 1897eca8955306c2f41dbf2569b8a4c1b7635158
+SHA256: 36683472a1079e9ba2302904b2c3db18622f2f9b44928dd5baa76501cc6db134
+Section: devel
+Priority: optional
+Description: custom libnice build
+
+Package: td-libnice-dev
+Version: 0.1.16-2
+Architecture: arm64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 551
+Depends: libssl-dev
+Conflicts: libnice-dev
+Filename: ./td-libvips-dev-dist/td-libnice-dev_0.1.16-2_arm64.deb
+Size: 140836
+MD5sum: 0063bc9e3ee1794a3110336c0229c995
+SHA1: 0639bd5f503b44e116a1b3b68df55c2034a10ac0
+SHA256: c02ad2f56a544eb0526d13150d4a8b349ea03afa864355ae72508c3de8192d80
+Section: devel
+Priority: optional
+Description: custom libnice build
+
+Package: td-libnice-dev
+Version: 0.1.16-2
+Architecture: amd64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 598
+Depends: libssl-dev
+Conflicts: libnice-dev
+Filename: ./td-libvips-dev-dist/td-libnice-dev_0.1.16-2_amd64.deb
+Size: 164404
+MD5sum: 3477d0878e52f5f1b80cb4122eb1d550
+SHA1: 1897eca8955306c2f41dbf2569b8a4c1b7635158
+SHA256: 36683472a1079e9ba2302904b2c3db18622f2f9b44928dd5baa76501cc6db134
+Section: devel
+Priority: optional
+Description: custom libnice build
+
 Package: td-libsrtp-dev
 Version: 2.2.0
 Architecture: all
@@ -356,62 +420,6 @@ Installed-Size: 3517
 Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
 Conflicts: libvips-dev, libvips-tools, libvips42
 Filename: ./td-libvips-dev_8.10.5-4_arm64.deb
-Size: 963712
-MD5sum: b331aae8cd7ceaa346b639fc78e112ba
-SHA1: b8c163f2dc2b5a2e1931ed53525f0dc654e28d0f
-SHA256: 396dfbecbf2c29b67ef3f612cf8a69aa4e69c20e4e668731052ab050c3728b89
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://libvips.github.io/libvips/
-Description: image processing system good for very large ones (dev)
- VIPS is an image processing system designed with efficiency in mind.
- It is good with large images (ones that larger than the amount of RAM in
- your machine), and for working with colour.  It can perform many
- image manipulation tasks much faster than other packages such as
- ImageMagick and the GIMP and includes some special features such as
- creating single "mosaic" images from multiple parts.
- .
- This package includes all development files needed to compile
- applications that use the vips library.
-
-Package: td-libvips-dev
-Source: vips
-Version: 8.10.5-4
-Architecture: amd64
-Maintainer: igo95862 <igo95862@yandex.ru>
-Installed-Size: 3860
-Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
-Conflicts: libvips-dev, libvips-tools, libvips42
-Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.5-4_amd64.deb
-Size: 1096948
-MD5sum: be68a4e52bd12f3ba53e89ec7ea60316
-SHA1: 35367d7c9a4e69d8511a93113acf301bda8592f4
-SHA256: 2e884ac6e0ffd4999033c0a725ab9f1cae3ae68797bca0abcb323360187ff543
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://libvips.github.io/libvips/
-Description: image processing system good for very large ones (dev)
- VIPS is an image processing system designed with efficiency in mind.
- It is good with large images (ones that larger than the amount of RAM in
- your machine), and for working with colour.  It can perform many
- image manipulation tasks much faster than other packages such as
- ImageMagick and the GIMP and includes some special features such as
- creating single "mosaic" images from multiple parts.
- .
- This package includes all development files needed to compile
- applications that use the vips library.
-
-Package: td-libvips-dev
-Source: vips
-Version: 8.10.5-4
-Architecture: arm64
-Maintainer: igo95862 <igo95862@yandex.ru>
-Installed-Size: 3517
-Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
-Conflicts: libvips-dev, libvips-tools, libvips42
-Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.5-4_arm64.deb
 Size: 963712
 MD5sum: b331aae8cd7ceaa346b639fc78e112ba
 SHA1: b8c163f2dc2b5a2e1931ed53525f0dc654e28d0f
