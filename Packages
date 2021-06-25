@@ -3,13 +3,13 @@ Source: janus
 Version: 0.10.10-1
 Architecture: amd64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
-Installed-Size: 3603
+Installed-Size: 3602
 Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
 Filename: ./td-janus_0.10.10-1_amd64.deb
-Size: 1143288
-MD5sum: e037c67f16ec83dc44618625c42f75e5
-SHA1: 886189cb0c086b8c373710dd432f1e82f6e2d46b
-SHA256: 46a02cf699a75527000e9b5661637f8688d036039ef875c8774d6f52e4b50e09
+Size: 1142752
+MD5sum: 11380a74ff5d174590158a2642d67298
+SHA1: cc94725e6be7709c68a946c0cf7804c7d32f9d87
+SHA256: 95fb0f5f4c21f2be25e4ed1956f650ae7a20a0ef5a1d7cc8c10a4d4b0f34c3e6
 Section: comm
 Priority: optional
 Homepage: https://janus.conf.meetecho.com
@@ -37,13 +37,13 @@ Source: janus
 Version: 0.10.10-1
 Architecture: arm64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
-Installed-Size: 3530
+Installed-Size: 3529
 Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
 Filename: ./td-janus_0.10.10-1_arm64.deb
-Size: 1080224
-MD5sum: a507931cd167e509f5a3e878cde7917d
-SHA1: 9e0705295291087f3ebbc521f896ebc288505ea0
-SHA256: 24d8d5b0617c2c15da80f8b118a9039b6d671b4f9d13f4bd8c68c7d3943c0704
+Size: 1081396
+MD5sum: 1765337c445206a5c514c42c52e852ae
+SHA1: 5a380219bd9dd82f7b2dc777f6e76908af8136df
+SHA256: 268d5a73e43a9bbba0fb60e56e94e944666846e2fae69145d03ba825859f3769
 Section: comm
 Priority: optional
 Homepage: https://janus.conf.meetecho.com
@@ -71,13 +71,13 @@ Source: janus
 Version: 0.10.10-1
 Architecture: amd64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
-Installed-Size: 3603
+Installed-Size: 3602
 Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
 Filename: ./td-libvips-dev-dist/td-janus_0.10.10-1_amd64.deb
-Size: 1143288
-MD5sum: e037c67f16ec83dc44618625c42f75e5
-SHA1: 886189cb0c086b8c373710dd432f1e82f6e2d46b
-SHA256: 46a02cf699a75527000e9b5661637f8688d036039ef875c8774d6f52e4b50e09
+Size: 1142752
+MD5sum: 11380a74ff5d174590158a2642d67298
+SHA1: cc94725e6be7709c68a946c0cf7804c7d32f9d87
+SHA256: 95fb0f5f4c21f2be25e4ed1956f650ae7a20a0ef5a1d7cc8c10a4d4b0f34c3e6
 Section: comm
 Priority: optional
 Homepage: https://janus.conf.meetecho.com
@@ -105,13 +105,13 @@ Source: janus
 Version: 0.10.10-1
 Architecture: arm64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
-Installed-Size: 3530
+Installed-Size: 3529
 Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
 Filename: ./td-libvips-dev-dist/td-janus_0.10.10-1_arm64.deb
-Size: 1080224
-MD5sum: a507931cd167e509f5a3e878cde7917d
-SHA1: 9e0705295291087f3ebbc521f896ebc288505ea0
-SHA256: 24d8d5b0617c2c15da80f8b118a9039b6d671b4f9d13f4bd8c68c7d3943c0704
+Size: 1081396
+MD5sum: 1765337c445206a5c514c42c52e852ae
+SHA1: 5a380219bd9dd82f7b2dc777f6e76908af8136df
+SHA256: 268d5a73e43a9bbba0fb60e56e94e944666846e2fae69145d03ba825859f3769
 Section: comm
 Priority: optional
 Homepage: https://janus.conf.meetecho.com
