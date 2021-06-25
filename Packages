@@ -68,16 +68,16 @@ Description: general purpose WebRTC server/gateway
 
 Package: td-janus
 Source: janus
-Version: 0.10.10-1
+Version: 0.10.10-2
 Architecture: amd64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
 Installed-Size: 3602
 Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
-Filename: ./td-libvips-dev-dist/td-janus_0.10.10-1_amd64.deb
-Size: 1142752
-MD5sum: 11380a74ff5d174590158a2642d67298
-SHA1: cc94725e6be7709c68a946c0cf7804c7d32f9d87
-SHA256: 95fb0f5f4c21f2be25e4ed1956f650ae7a20a0ef5a1d7cc8c10a4d4b0f34c3e6
+Filename: ./td-janus_0.10.10-2_amd64.deb
+Size: 1143072
+MD5sum: 5d5148bec5cbd2b389c1f08d243f9fd4
+SHA1: 13dd753b55f8f17ec6f14ce260fa58203c89e301
+SHA256: 4c38ac22a94cda42ac55278b89bc3325f9af73457ab75c8a9c94a06f6fdc11f5
 Section: comm
 Priority: optional
 Homepage: https://janus.conf.meetecho.com
@@ -102,16 +102,84 @@ Description: general purpose WebRTC server/gateway
 
 Package: td-janus
 Source: janus
-Version: 0.10.10-1
+Version: 0.10.10-2
 Architecture: arm64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
 Installed-Size: 3529
 Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
-Filename: ./td-libvips-dev-dist/td-janus_0.10.10-1_arm64.deb
-Size: 1081396
-MD5sum: 1765337c445206a5c514c42c52e852ae
-SHA1: 5a380219bd9dd82f7b2dc777f6e76908af8136df
-SHA256: 268d5a73e43a9bbba0fb60e56e94e944666846e2fae69145d03ba825859f3769
+Filename: ./td-janus_0.10.10-2_arm64.deb
+Size: 1081488
+MD5sum: 4cef565740e22138ddb62df7cfa68d54
+SHA1: ad3e36b28cbef77f7fd3dd0a997efc0924eee115
+SHA256: d2bfae9d076f7e16d60742d6c6e6262cc6a1ab67861178229ef6ee0e69d19361
+Section: comm
+Priority: optional
+Homepage: https://janus.conf.meetecho.com
+Description: general purpose WebRTC server/gateway
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ As such, it doesn't provide any functionality per se
+ other than implementing the means to set up
+ a WebRTC media communication with a browser or application,
+ exchanging JSON messages with it over different transports,
+ and relaying RTP/RTCP and messages between clients
+ and the server-side application logic they're attached to.
+ Any specific feature/application is provided
+ by server side plugins,
+ that browsers can then contact via the server
+ to take advantage of the functionality they provide.
+ .
+ Example of such plugins can be implementations of applications
+ like echo tests, conference bridges, media recorders,
+ SIP gateways and the like.
+
+Package: td-janus
+Source: janus
+Version: 0.10.10-2
+Architecture: amd64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 3602
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
+Filename: ./td-libvips-dev-dist/td-janus_0.10.10-2_amd64.deb
+Size: 1143072
+MD5sum: 5d5148bec5cbd2b389c1f08d243f9fd4
+SHA1: 13dd753b55f8f17ec6f14ce260fa58203c89e301
+SHA256: 4c38ac22a94cda42ac55278b89bc3325f9af73457ab75c8a9c94a06f6fdc11f5
+Section: comm
+Priority: optional
+Homepage: https://janus.conf.meetecho.com
+Description: general purpose WebRTC server/gateway
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ As such, it doesn't provide any functionality per se
+ other than implementing the means to set up
+ a WebRTC media communication with a browser or application,
+ exchanging JSON messages with it over different transports,
+ and relaying RTP/RTCP and messages between clients
+ and the server-side application logic they're attached to.
+ Any specific feature/application is provided
+ by server side plugins,
+ that browsers can then contact via the server
+ to take advantage of the functionality they provide.
+ .
+ Example of such plugins can be implementations of applications
+ like echo tests, conference bridges, media recorders,
+ SIP gateways and the like.
+
+Package: td-janus
+Source: janus
+Version: 0.10.10-2
+Architecture: arm64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 3529
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
+Filename: ./td-libvips-dev-dist/td-janus_0.10.10-2_arm64.deb
+Size: 1081488
+MD5sum: 4cef565740e22138ddb62df7cfa68d54
+SHA1: ad3e36b28cbef77f7fd3dd0a997efc0924eee115
+SHA256: d2bfae9d076f7e16d60742d6c6e6262cc6a1ab67861178229ef6ee0e69d19361
 Section: comm
 Priority: optional
 Homepage: https://janus.conf.meetecho.com
