@@ -1,40 +1,6 @@
 Package: td-janus
 Source: janus
 Version: 0.10.10-1
-Architecture: amd64
-Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
-Installed-Size: 3602
-Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
-Filename: ./td-janus_0.10.10-1_amd64.deb
-Size: 1142752
-MD5sum: 11380a74ff5d174590158a2642d67298
-SHA1: cc94725e6be7709c68a946c0cf7804c7d32f9d87
-SHA256: 95fb0f5f4c21f2be25e4ed1956f650ae7a20a0ef5a1d7cc8c10a4d4b0f34c3e6
-Section: comm
-Priority: optional
-Homepage: https://janus.conf.meetecho.com
-Description: general purpose WebRTC server/gateway
- janus is a general purpose WebRTC server/gateway
- with a minimal footprint.
- .
- As such, it doesn't provide any functionality per se
- other than implementing the means to set up
- a WebRTC media communication with a browser or application,
- exchanging JSON messages with it over different transports,
- and relaying RTP/RTCP and messages between clients
- and the server-side application logic they're attached to.
- Any specific feature/application is provided
- by server side plugins,
- that browsers can then contact via the server
- to take advantage of the functionality they provide.
- .
- Example of such plugins can be implementations of applications
- like echo tests, conference bridges, media recorders,
- SIP gateways and the like.
-
-Package: td-janus
-Source: janus
-Version: 0.10.10-1
 Architecture: arm64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
 Installed-Size: 3529
@@ -68,16 +34,16 @@ Description: general purpose WebRTC server/gateway
 
 Package: td-janus
 Source: janus
-Version: 0.10.10-2
+Version: 0.10.10-1
 Architecture: amd64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
 Installed-Size: 3602
 Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
-Filename: ./td-janus_0.10.10-2_amd64.deb
-Size: 1143072
-MD5sum: 5d5148bec5cbd2b389c1f08d243f9fd4
-SHA1: 13dd753b55f8f17ec6f14ce260fa58203c89e301
-SHA256: 4c38ac22a94cda42ac55278b89bc3325f9af73457ab75c8a9c94a06f6fdc11f5
+Filename: ./td-janus_0.10.10-1_amd64.deb
+Size: 1142752
+MD5sum: 11380a74ff5d174590158a2642d67298
+SHA1: cc94725e6be7709c68a946c0cf7804c7d32f9d87
+SHA256: 95fb0f5f4c21f2be25e4ed1956f650ae7a20a0ef5a1d7cc8c10a4d4b0f34c3e6
 Section: comm
 Priority: optional
 Homepage: https://janus.conf.meetecho.com
@@ -141,7 +107,7 @@ Architecture: amd64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
 Installed-Size: 3602
 Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
-Filename: ./td-libvips-dev-dist/td-janus_0.10.10-2_amd64.deb
+Filename: ./td-janus_0.10.10-2_amd64.deb
 Size: 1143072
 MD5sum: 5d5148bec5cbd2b389c1f08d243f9fd4
 SHA1: 13dd753b55f8f17ec6f14ce260fa58203c89e301
@@ -170,16 +136,118 @@ Description: general purpose WebRTC server/gateway
 
 Package: td-janus
 Source: janus
-Version: 0.10.10-2
+Version: 0.10.10-3
 Architecture: arm64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
 Installed-Size: 3529
-Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
-Filename: ./td-libvips-dev-dist/td-janus_0.10.10-2_arm64.deb
-Size: 1081488
-MD5sum: 4cef565740e22138ddb62df7cfa68d54
-SHA1: ad3e36b28cbef77f7fd3dd0a997efc0924eee115
-SHA256: d2bfae9d076f7e16d60742d6c6e6262cc6a1ab67861178229ef6ee0e69d19361
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev, libgupnp-igd-1.0-dev
+Filename: ./td-janus_0.10.10-3_arm64.deb
+Size: 1080240
+MD5sum: 2fe20e50cf457f320a9c539cb7d0af24
+SHA1: 8977eddf42c3de5773dd6fcec3aa015518994ad4
+SHA256: 1419a6f0fdd5817ac4b3b15b6f87200c1e2ec4b2630ccd2d55e585995775a43b
+Section: comm
+Priority: optional
+Homepage: https://janus.conf.meetecho.com
+Description: general purpose WebRTC server/gateway
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ As such, it doesn't provide any functionality per se
+ other than implementing the means to set up
+ a WebRTC media communication with a browser or application,
+ exchanging JSON messages with it over different transports,
+ and relaying RTP/RTCP and messages between clients
+ and the server-side application logic they're attached to.
+ Any specific feature/application is provided
+ by server side plugins,
+ that browsers can then contact via the server
+ to take advantage of the functionality they provide.
+ .
+ Example of such plugins can be implementations of applications
+ like echo tests, conference bridges, media recorders,
+ SIP gateways and the like.
+
+Package: td-janus
+Source: janus
+Version: 0.10.10-3
+Architecture: amd64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 3602
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev, libgupnp-igd-1.0-dev
+Filename: ./td-janus_0.10.10-3_amd64.deb
+Size: 1143100
+MD5sum: c9ea3cb61808aef5b527f09233176a5c
+SHA1: 107d7086370ffec4129afa9de047a62b6280e91c
+SHA256: 105a5fc6fbef197010d5965ba0b2a79cae1523cde03f16fd3e9f4db9012f9bb9
+Section: comm
+Priority: optional
+Homepage: https://janus.conf.meetecho.com
+Description: general purpose WebRTC server/gateway
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ As such, it doesn't provide any functionality per se
+ other than implementing the means to set up
+ a WebRTC media communication with a browser or application,
+ exchanging JSON messages with it over different transports,
+ and relaying RTP/RTCP and messages between clients
+ and the server-side application logic they're attached to.
+ Any specific feature/application is provided
+ by server side plugins,
+ that browsers can then contact via the server
+ to take advantage of the functionality they provide.
+ .
+ Example of such plugins can be implementations of applications
+ like echo tests, conference bridges, media recorders,
+ SIP gateways and the like.
+
+Package: td-janus
+Source: janus
+Version: 0.10.10-3
+Architecture: arm64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 3529
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev, libgupnp-igd-1.0-dev
+Filename: ./td-libvips-dev-dist/td-janus_0.10.10-3_arm64.deb
+Size: 1080240
+MD5sum: 2fe20e50cf457f320a9c539cb7d0af24
+SHA1: 8977eddf42c3de5773dd6fcec3aa015518994ad4
+SHA256: 1419a6f0fdd5817ac4b3b15b6f87200c1e2ec4b2630ccd2d55e585995775a43b
+Section: comm
+Priority: optional
+Homepage: https://janus.conf.meetecho.com
+Description: general purpose WebRTC server/gateway
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ As such, it doesn't provide any functionality per se
+ other than implementing the means to set up
+ a WebRTC media communication with a browser or application,
+ exchanging JSON messages with it over different transports,
+ and relaying RTP/RTCP and messages between clients
+ and the server-side application logic they're attached to.
+ Any specific feature/application is provided
+ by server side plugins,
+ that browsers can then contact via the server
+ to take advantage of the functionality they provide.
+ .
+ Example of such plugins can be implementations of applications
+ like echo tests, conference bridges, media recorders,
+ SIP gateways and the like.
+
+Package: td-janus
+Source: janus
+Version: 0.10.10-3
+Architecture: amd64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 3602
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev, libgupnp-igd-1.0-dev
+Filename: ./td-libvips-dev-dist/td-janus_0.10.10-3_amd64.deb
+Size: 1143100
+MD5sum: c9ea3cb61808aef5b527f09233176a5c
+SHA1: 107d7086370ffec4129afa9de047a62b6280e91c
+SHA256: 105a5fc6fbef197010d5965ba0b2a79cae1523cde03f16fd3e9f4db9012f9bb9
 Section: comm
 Priority: optional
 Homepage: https://janus.conf.meetecho.com
@@ -982,29 +1050,6 @@ Description: lightweight C websockets library - development files
 Package: td-libwebsockets-test-server
 Source: libwebsockets
 Version: 3.2.2-1
-Architecture: arm64
-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 941
-Depends: td-libwebsockets (= 3.2.2-1), td-libwebsockets-test-server-common (= 3.2.2-1), libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
-Filename: ./td-libwebsockets-test-server_3.2.2-1_arm64.deb
-Size: 157992
-MD5sum: c0faaa970501332ca746c533201531ed
-SHA1: 3a1c09dbfdc8de18f8981750bca1ff22fa21bde9
-SHA256: 80bf5a1cf172cb93b8a07592250bd8e32307732a8f997c4d3b859d6a2de934f5
-Section: utils
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://libwebsockets.org/
-Description: lightweight C websockets library - test servers
- Libwebsockets is a lightweight pure C library for both websockets
- clients and servers built to use minimal CPU and memory resources
- and provide fast throughput in both directions.
- .
- This package contains several demonstration test servers.
-
-Package: td-libwebsockets-test-server
-Source: libwebsockets
-Version: 3.2.2-1
 Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 1062
@@ -1032,7 +1077,7 @@ Architecture: arm64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 941
 Depends: td-libwebsockets (= 3.2.2-1), td-libwebsockets-test-server-common (= 3.2.2-1), libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
-Filename: ./td-libwebsockets-dev-dist/td-libwebsockets-test-server_3.2.2-1_arm64.deb
+Filename: ./td-libwebsockets-test-server_3.2.2-1_arm64.deb
 Size: 157992
 MD5sum: c0faaa970501332ca746c533201531ed
 SHA1: 3a1c09dbfdc8de18f8981750bca1ff22fa21bde9
@@ -1060,6 +1105,29 @@ Size: 184548
 MD5sum: b58f0fa4642007034e69c163b180c7ce
 SHA1: bd43d0b4832254d700fc16249a0573f9ca155387
 SHA256: 3f93ff703aea5e4a3180ba912e5c694b40f511384456ba58be0ed72c685d8d6d
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://libwebsockets.org/
+Description: lightweight C websockets library - test servers
+ Libwebsockets is a lightweight pure C library for both websockets
+ clients and servers built to use minimal CPU and memory resources
+ and provide fast throughput in both directions.
+ .
+ This package contains several demonstration test servers.
+
+Package: td-libwebsockets-test-server
+Source: libwebsockets
+Version: 3.2.2-1
+Architecture: arm64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 941
+Depends: td-libwebsockets (= 3.2.2-1), td-libwebsockets-test-server-common (= 3.2.2-1), libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
+Filename: ./td-libwebsockets-dev-dist/td-libwebsockets-test-server_3.2.2-1_arm64.deb
+Size: 157992
+MD5sum: c0faaa970501332ca746c533201531ed
+SHA1: 3a1c09dbfdc8de18f8981750bca1ff22fa21bde9
+SHA256: 80bf5a1cf172cb93b8a07592250bd8e32307732a8f997c4d3b859d6a2de934f5
 Section: utils
 Priority: optional
 Multi-Arch: foreign
