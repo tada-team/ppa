@@ -1,40 +1,6 @@
 Package: td-janus
 Source: janus
 Version: 0.10.10-1
-Architecture: arm64
-Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
-Installed-Size: 3529
-Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
-Filename: ./td-janus_0.10.10-1_arm64.deb
-Size: 1081396
-MD5sum: 1765337c445206a5c514c42c52e852ae
-SHA1: 5a380219bd9dd82f7b2dc777f6e76908af8136df
-SHA256: 268d5a73e43a9bbba0fb60e56e94e944666846e2fae69145d03ba825859f3769
-Section: comm
-Priority: optional
-Homepage: https://janus.conf.meetecho.com
-Description: general purpose WebRTC server/gateway
- janus is a general purpose WebRTC server/gateway
- with a minimal footprint.
- .
- As such, it doesn't provide any functionality per se
- other than implementing the means to set up
- a WebRTC media communication with a browser or application,
- exchanging JSON messages with it over different transports,
- and relaying RTP/RTCP and messages between clients
- and the server-side application logic they're attached to.
- Any specific feature/application is provided
- by server side plugins,
- that browsers can then contact via the server
- to take advantage of the functionality they provide.
- .
- Example of such plugins can be implementations of applications
- like echo tests, conference bridges, media recorders,
- SIP gateways and the like.
-
-Package: td-janus
-Source: janus
-Version: 0.10.10-1
 Architecture: amd64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
 Installed-Size: 3602
@@ -68,16 +34,16 @@ Description: general purpose WebRTC server/gateway
 
 Package: td-janus
 Source: janus
-Version: 0.10.10-2
+Version: 0.10.10-1
 Architecture: arm64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
 Installed-Size: 3529
 Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
-Filename: ./td-janus_0.10.10-2_arm64.deb
-Size: 1081488
-MD5sum: 4cef565740e22138ddb62df7cfa68d54
-SHA1: ad3e36b28cbef77f7fd3dd0a997efc0924eee115
-SHA256: d2bfae9d076f7e16d60742d6c6e6262cc6a1ab67861178229ef6ee0e69d19361
+Filename: ./td-janus_0.10.10-1_arm64.deb
+Size: 1081396
+MD5sum: 1765337c445206a5c514c42c52e852ae
+SHA1: 5a380219bd9dd82f7b2dc777f6e76908af8136df
+SHA256: 268d5a73e43a9bbba0fb60e56e94e944666846e2fae69145d03ba825859f3769
 Section: comm
 Priority: optional
 Homepage: https://janus.conf.meetecho.com
@@ -112,6 +78,40 @@ Size: 1143072
 MD5sum: 5d5148bec5cbd2b389c1f08d243f9fd4
 SHA1: 13dd753b55f8f17ec6f14ce260fa58203c89e301
 SHA256: 4c38ac22a94cda42ac55278b89bc3325f9af73457ab75c8a9c94a06f6fdc11f5
+Section: comm
+Priority: optional
+Homepage: https://janus.conf.meetecho.com
+Description: general purpose WebRTC server/gateway
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ As such, it doesn't provide any functionality per se
+ other than implementing the means to set up
+ a WebRTC media communication with a browser or application,
+ exchanging JSON messages with it over different transports,
+ and relaying RTP/RTCP and messages between clients
+ and the server-side application logic they're attached to.
+ Any specific feature/application is provided
+ by server side plugins,
+ that browsers can then contact via the server
+ to take advantage of the functionality they provide.
+ .
+ Example of such plugins can be implementations of applications
+ like echo tests, conference bridges, media recorders,
+ SIP gateways and the like.
+
+Package: td-janus
+Source: janus
+Version: 0.10.10-2
+Architecture: arm64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 3529
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev
+Filename: ./td-janus_0.10.10-2_arm64.deb
+Size: 1081488
+MD5sum: 4cef565740e22138ddb62df7cfa68d54
+SHA1: ad3e36b28cbef77f7fd3dd0a997efc0924eee115
+SHA256: d2bfae9d076f7e16d60742d6c6e6262cc6a1ab67861178229ef6ee0e69d19361
 Section: comm
 Priority: optional
 Homepage: https://janus.conf.meetecho.com
@@ -176,74 +176,6 @@ Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
 Installed-Size: 3602
 Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev, libgupnp-igd-1.0-dev
 Filename: ./td-janus_0.10.10-3_amd64.deb
-Size: 1143100
-MD5sum: c9ea3cb61808aef5b527f09233176a5c
-SHA1: 107d7086370ffec4129afa9de047a62b6280e91c
-SHA256: 105a5fc6fbef197010d5965ba0b2a79cae1523cde03f16fd3e9f4db9012f9bb9
-Section: comm
-Priority: optional
-Homepage: https://janus.conf.meetecho.com
-Description: general purpose WebRTC server/gateway
- janus is a general purpose WebRTC server/gateway
- with a minimal footprint.
- .
- As such, it doesn't provide any functionality per se
- other than implementing the means to set up
- a WebRTC media communication with a browser or application,
- exchanging JSON messages with it over different transports,
- and relaying RTP/RTCP and messages between clients
- and the server-side application logic they're attached to.
- Any specific feature/application is provided
- by server side plugins,
- that browsers can then contact via the server
- to take advantage of the functionality they provide.
- .
- Example of such plugins can be implementations of applications
- like echo tests, conference bridges, media recorders,
- SIP gateways and the like.
-
-Package: td-janus
-Source: janus
-Version: 0.10.10-3
-Architecture: arm64
-Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
-Installed-Size: 3529
-Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev, libgupnp-igd-1.0-dev
-Filename: ./td-libvips-dev-dist/td-janus_0.10.10-3_arm64.deb
-Size: 1080240
-MD5sum: 2fe20e50cf457f320a9c539cb7d0af24
-SHA1: 8977eddf42c3de5773dd6fcec3aa015518994ad4
-SHA256: 1419a6f0fdd5817ac4b3b15b6f87200c1e2ec4b2630ccd2d55e585995775a43b
-Section: comm
-Priority: optional
-Homepage: https://janus.conf.meetecho.com
-Description: general purpose WebRTC server/gateway
- janus is a general purpose WebRTC server/gateway
- with a minimal footprint.
- .
- As such, it doesn't provide any functionality per se
- other than implementing the means to set up
- a WebRTC media communication with a browser or application,
- exchanging JSON messages with it over different transports,
- and relaying RTP/RTCP and messages between clients
- and the server-side application logic they're attached to.
- Any specific feature/application is provided
- by server side plugins,
- that browsers can then contact via the server
- to take advantage of the functionality they provide.
- .
- Example of such plugins can be implementations of applications
- like echo tests, conference bridges, media recorders,
- SIP gateways and the like.
-
-Package: td-janus
-Source: janus
-Version: 0.10.10-3
-Architecture: amd64
-Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
-Installed-Size: 3602
-Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, td-libnice-dev, td-libsrtp-dev, td-libwebsockets-dev, libgupnp-igd-1.0-dev
-Filename: ./td-libvips-dev-dist/td-janus_0.10.10-3_amd64.deb
 Size: 1143100
 MD5sum: c9ea3cb61808aef5b527f09233176a5c
 SHA1: 107d7086370ffec4129afa9de047a62b6280e91c
@@ -380,22 +312,6 @@ Description: custom libnice build
 
 Package: td-libnice-dev
 Version: 0.1.16-2
-Architecture: arm64
-Maintainer: Tada.team <info@tada.team>
-Installed-Size: 551
-Depends: libssl-dev
-Conflicts: libnice-dev
-Filename: ./td-libnice-dev_0.1.16-2_arm64.deb
-Size: 140836
-MD5sum: 0063bc9e3ee1794a3110336c0229c995
-SHA1: 0639bd5f503b44e116a1b3b68df55c2034a10ac0
-SHA256: c02ad2f56a544eb0526d13150d4a8b349ea03afa864355ae72508c3de8192d80
-Section: devel
-Priority: optional
-Description: custom libnice build
-
-Package: td-libnice-dev
-Version: 0.1.16-2
 Architecture: amd64
 Maintainer: Tada.team <info@tada.team>
 Installed-Size: 598
@@ -406,6 +322,22 @@ Size: 164404
 MD5sum: 3477d0878e52f5f1b80cb4122eb1d550
 SHA1: 1897eca8955306c2f41dbf2569b8a4c1b7635158
 SHA256: 36683472a1079e9ba2302904b2c3db18622f2f9b44928dd5baa76501cc6db134
+Section: devel
+Priority: optional
+Description: custom libnice build
+
+Package: td-libnice-dev
+Version: 0.1.16-2
+Architecture: arm64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 551
+Depends: libssl-dev
+Conflicts: libnice-dev
+Filename: ./td-libnice-dev_0.1.16-2_arm64.deb
+Size: 140836
+MD5sum: 0063bc9e3ee1794a3110336c0229c995
+SHA1: 0639bd5f503b44e116a1b3b68df55c2034a10ac0
+SHA256: c02ad2f56a544eb0526d13150d4a8b349ea03afa864355ae72508c3de8192d80
 Section: devel
 Priority: optional
 Description: custom libnice build
@@ -454,22 +386,6 @@ Description: custom libsrtp build
 
 Package: td-libsrtp-dev
 Version: 2.3.0-2
-Architecture: arm64
-Maintainer: Tada.team <info@tada.team>
-Installed-Size: 228
-Depends: libssl-dev
-Conflicts: libsrtp-dev
-Filename: ./td-libsrtp-dev_2.3.0-2_arm64.deb
-Size: 41688
-MD5sum: bd863432a3881afd69b619b12c66d717
-SHA1: 1878e07f790329611c34c95039e023b8c4fdb16d
-SHA256: 0fdecdcb67ee1766ac315604d8daaf8716c6a1e8cef2afa7979346efed515d1c
-Section: devel
-Priority: optional
-Description: custom libsrtp build
-
-Package: td-libsrtp-dev
-Version: 2.3.0-2
 Architecture: amd64
 Maintainer: Tada.team <info@tada.team>
 Installed-Size: 238
@@ -480,6 +396,22 @@ Size: 44520
 MD5sum: 5c016c6da494a872817a0c5b022cbe9a
 SHA1: 547de219bc5ab6175fc2f0e494a9d8b840bcc4ad
 SHA256: d08962f5924a636a0c65893b25ac3bc074fa544e90800a1d685042a3eb3a0dab
+Section: devel
+Priority: optional
+Description: custom libsrtp build
+
+Package: td-libsrtp-dev
+Version: 2.3.0-2
+Architecture: arm64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 228
+Depends: libssl-dev
+Conflicts: libsrtp-dev
+Filename: ./td-libsrtp-dev_2.3.0-2_arm64.deb
+Size: 41688
+MD5sum: bd863432a3881afd69b619b12c66d717
+SHA1: 1878e07f790329611c34c95039e023b8c4fdb16d
+SHA256: 0fdecdcb67ee1766ac315604d8daaf8716c6a1e8cef2afa7979346efed515d1c
 Section: devel
 Priority: optional
 Description: custom libsrtp build
@@ -592,39 +524,6 @@ Description: custom libvips build
 Package: td-libvips-dev
 Source: vips
 Version: 8.10.5-3
-Architecture: amd64
-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 452
-Depends: td-libvips42 (= 8.10.5-3), libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
-Recommends: td-libvips-tools
-Suggests: nip2
-Conflicts: libvips-dev
-Filename: ./td-libvips-dev_8.10.5-3_amd64.deb
-Size: 71132
-MD5sum: f10ccea67e990d052fdae781f9cbeb19
-SHA1: 32091aa0dba3f1d89c336f593f8fea921fe77b7e
-SHA256: 08394199dc7663e891055db6213a8b56166bbc69cc804d1f6585e8bb81436339
-Section: libdevel
-Priority: optional
-Homepage: https://libvips.github.io/libvips/
-Description: image processing system good for very large ones (dev)
- VIPS is an image processing system designed with efficiency in mind.
- It is good with large images (ones that larger than the amount of RAM in
- your machine), and for working with colour.  It can perform many
- image manipulation tasks much faster than other packages such as
- ImageMagick and the GIMP and includes some special features such as
- creating single "mosaic" images from multiple parts.
- .
- VIPS consists of two main components: an image processing library
- with some command-line tools and a spreadsheet-like graphical user
- interface.  The graphical interface is available in the nip2 package.
- .
- This package includes all development files needed to compile
- applications that use the vips library.
-
-Package: td-libvips-dev
-Source: vips
-Version: 8.10.5-3
 Architecture: arm64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 452
@@ -657,6 +556,67 @@ Description: image processing system good for very large ones (dev)
 
 Package: td-libvips-dev
 Source: vips
+Version: 8.10.5-3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 452
+Depends: td-libvips42 (= 8.10.5-3), libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
+Recommends: td-libvips-tools
+Suggests: nip2
+Conflicts: libvips-dev
+Filename: ./td-libvips-dev_8.10.5-3_amd64.deb
+Size: 71132
+MD5sum: f10ccea67e990d052fdae781f9cbeb19
+SHA1: 32091aa0dba3f1d89c336f593f8fea921fe77b7e
+SHA256: 08394199dc7663e891055db6213a8b56166bbc69cc804d1f6585e8bb81436339
+Section: libdevel
+Priority: optional
+Homepage: https://libvips.github.io/libvips/
+Description: image processing system good for very large ones (dev)
+ VIPS is an image processing system designed with efficiency in mind.
+ It is good with large images (ones that larger than the amount of RAM in
+ your machine), and for working with colour.  It can perform many
+ image manipulation tasks much faster than other packages such as
+ ImageMagick and the GIMP and includes some special features such as
+ creating single "mosaic" images from multiple parts.
+ .
+ VIPS consists of two main components: an image processing library
+ with some command-line tools and a spreadsheet-like graphical user
+ interface.  The graphical interface is available in the nip2 package.
+ .
+ This package includes all development files needed to compile
+ applications that use the vips library.
+
+Package: td-libvips-dev
+Source: vips
+Version: 8.10.5-4
+Architecture: arm64
+Maintainer: igo95862 <igo95862@yandex.ru>
+Installed-Size: 3517
+Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
+Conflicts: libvips-dev, libvips-tools, libvips42
+Filename: ./td-libvips-dev_8.10.5-4_arm64.deb
+Size: 963936
+MD5sum: 92c380d6b0e876b4bb06589f2318ae2a
+SHA1: 355da6b7aa85cc68536baf677360986ffb2aa992
+SHA256: 866dc98b3a016c462dd8e52256fc42242442dfebf662a2dafff3f9021fbe7cae
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://libvips.github.io/libvips/
+Description: image processing system good for very large ones (dev)
+ VIPS is an image processing system designed with efficiency in mind.
+ It is good with large images (ones that larger than the amount of RAM in
+ your machine), and for working with colour.  It can perform many
+ image manipulation tasks much faster than other packages such as
+ ImageMagick and the GIMP and includes some special features such as
+ creating single "mosaic" images from multiple parts.
+ .
+ This package includes all development files needed to compile
+ applications that use the vips library.
+
+Package: td-libvips-dev
+Source: vips
 Version: 8.10.5-4
 Architecture: amd64
 Maintainer: igo95862 <igo95862@yandex.ru>
@@ -664,10 +624,10 @@ Installed-Size: 3860
 Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
 Conflicts: libvips-dev, libvips-tools, libvips42
 Filename: ./td-libvips-dev_8.10.5-4_amd64.deb
-Size: 1096948
-MD5sum: be68a4e52bd12f3ba53e89ec7ea60316
-SHA1: 35367d7c9a4e69d8511a93113acf301bda8592f4
-SHA256: 2e884ac6e0ffd4999033c0a725ab9f1cae3ae68797bca0abcb323360187ff543
+Size: 1098888
+MD5sum: 915e627aa6355b1f5cf43251ad0516bf
+SHA1: ba848d9df977c582dd3bcc491818cf56689a2218
+SHA256: 1dff9046d8071d9ee3a49fae21cd86d5afb9086ec083ac3f88edb91957f9d54e
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -691,11 +651,11 @@ Maintainer: igo95862 <igo95862@yandex.ru>
 Installed-Size: 3517
 Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
 Conflicts: libvips-dev, libvips-tools, libvips42
-Filename: ./td-libvips-dev_8.10.5-4_arm64.deb
-Size: 963712
-MD5sum: b331aae8cd7ceaa346b639fc78e112ba
-SHA1: b8c163f2dc2b5a2e1931ed53525f0dc654e28d0f
-SHA256: 396dfbecbf2c29b67ef3f612cf8a69aa4e69c20e4e668731052ab050c3728b89
+Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.5-4_arm64.deb
+Size: 963936
+MD5sum: 92c380d6b0e876b4bb06589f2318ae2a
+SHA1: 355da6b7aa85cc68536baf677360986ffb2aa992
+SHA256: 866dc98b3a016c462dd8e52256fc42242442dfebf662a2dafff3f9021fbe7cae
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -711,25 +671,24 @@ Description: image processing system good for very large ones (dev)
  This package includes all development files needed to compile
  applications that use the vips library.
 
-Package: td-libvips-tools
+Package: td-libvips-dev
 Source: vips
-Version: 8.10.5-3
+Version: 8.10.5-4
 Architecture: amd64
-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 117
-Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.14.0), td-libvips42 (>> 8.0.2-1~), python3
-Suggests: td-libvips-dev
-Conflicts: libvips-tools
-Filename: ./td-libvips-tools_8.10.5-3_amd64.deb
-Size: 35292
-MD5sum: b90641ff99a55705e8c3c464d2c0762e
-SHA1: 432189096713deb4c4f72188ec22871a90dd4b1e
-SHA256: 1bebcfc6f9c7900d3981f5c58fe8f8a10576b08af01a7efc2ef9706fad14416c
-Section: graphics
+Maintainer: igo95862 <igo95862@yandex.ru>
+Installed-Size: 3860
+Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
+Conflicts: libvips-dev, libvips-tools, libvips42
+Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.5-4_amd64.deb
+Size: 1098888
+MD5sum: 915e627aa6355b1f5cf43251ad0516bf
+SHA1: ba848d9df977c582dd3bcc491818cf56689a2218
+SHA256: 1dff9046d8071d9ee3a49fae21cd86d5afb9086ec083ac3f88edb91957f9d54e
+Section: libdevel
 Priority: optional
-Multi-Arch: foreign
+Multi-Arch: same
 Homepage: https://libvips.github.io/libvips/
-Description: image processing system good for very large ones (tools)
+Description: image processing system good for very large ones (dev)
  VIPS is an image processing system designed with efficiency in mind.
  It is good with large images (ones that larger than the amount of RAM in
  your machine), and for working with colour.  It can perform many
@@ -737,13 +696,8 @@ Description: image processing system good for very large ones (tools)
  ImageMagick and the GIMP and includes some special features such as
  creating single "mosaic" images from multiple parts.
  .
- VIPS consists of two main components: an image processing library
- with some command-line tools and a spreadsheet-like graphical user
- interface.  The graphical interface is available in the nip2 package.
- .
- This package includes several command-line utilities that make it
- possible to use some vips functionality from shell scripts or the
- command line.
+ This package includes all development files needed to compile
+ applications that use the vips library.
 
 Package: td-libvips-tools
 Source: vips
@@ -779,20 +733,54 @@ Description: image processing system good for very large ones (tools)
  possible to use some vips functionality from shell scripts or the
  command line.
 
+Package: td-libvips-tools
+Source: vips
+Version: 8.10.5-3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 117
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.14.0), td-libvips42 (>> 8.0.2-1~), python3
+Suggests: td-libvips-dev
+Conflicts: libvips-tools
+Filename: ./td-libvips-tools_8.10.5-3_amd64.deb
+Size: 35292
+MD5sum: b90641ff99a55705e8c3c464d2c0762e
+SHA1: 432189096713deb4c4f72188ec22871a90dd4b1e
+SHA256: 1bebcfc6f9c7900d3981f5c58fe8f8a10576b08af01a7efc2ef9706fad14416c
+Section: graphics
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://libvips.github.io/libvips/
+Description: image processing system good for very large ones (tools)
+ VIPS is an image processing system designed with efficiency in mind.
+ It is good with large images (ones that larger than the amount of RAM in
+ your machine), and for working with colour.  It can perform many
+ image manipulation tasks much faster than other packages such as
+ ImageMagick and the GIMP and includes some special features such as
+ creating single "mosaic" images from multiple parts.
+ .
+ VIPS consists of two main components: an image processing library
+ with some command-line tools and a spreadsheet-like graphical user
+ interface.  The graphical interface is available in the nip2 package.
+ .
+ This package includes several command-line utilities that make it
+ possible to use some vips functionality from shell scripts or the
+ command line.
+
 Package: td-libvips42
 Source: vips
 Version: 8.10.5-3
-Architecture: arm64
+Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 3081
+Installed-Size: 3424
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libexif12 (>= 0.6.21-1~), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.0), libgif7 (>= 5.1), libglib2.0-0 (>= 2.39.91), libgsf-1-114 (>= 1.14.8), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628), libmagickcore-6.q16-3 (>= 8:6.9.6.8), libopenexr22, libpng16-16 (>= 1.6.2-1), libpoppler-glib8 (>= 0.22.1), librsvg2-2 (>= 2.32.0), libstdc++6 (>= 5.2), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), zlib1g (>= 1:1.1.4)
 Conflicts: libvips42
 Provides: td-libvips
-Filename: ./td-libvips42_8.10.5-3_arm64.deb
-Size: 906732
-MD5sum: 1d4f63e4e8d48253d3f5f26f9185492b
-SHA1: b34c733a59fea673bc62ae78ebc9d1e0914baf7f
-SHA256: caea1bcaa1a3a110d3ad11fd42acba33286611579a15b98a8162266d581cf6a0
+Filename: ./td-libvips42_8.10.5-3_amd64.deb
+Size: 1038604
+MD5sum: c681ab2cdebf1510f224ed236f14c930
+SHA1: 405c9aa0a87bcc607402f88559b4bbf0dae066b8
+SHA256: 99e13ca20658e5d83deca7b3de450a0a90af03a285314699fde2c54bcdc64d63
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -815,17 +803,17 @@ Description: image processing system good for very large ones
 Package: td-libvips42
 Source: vips
 Version: 8.10.5-3
-Architecture: amd64
+Architecture: arm64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 3424
+Installed-Size: 3081
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libexif12 (>= 0.6.21-1~), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.0), libgif7 (>= 5.1), libglib2.0-0 (>= 2.39.91), libgsf-1-114 (>= 1.14.8), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628), libmagickcore-6.q16-3 (>= 8:6.9.6.8), libopenexr22, libpng16-16 (>= 1.6.2-1), libpoppler-glib8 (>= 0.22.1), librsvg2-2 (>= 2.32.0), libstdc++6 (>= 5.2), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), zlib1g (>= 1:1.1.4)
 Conflicts: libvips42
 Provides: td-libvips
-Filename: ./td-libvips42_8.10.5-3_amd64.deb
-Size: 1038604
-MD5sum: c681ab2cdebf1510f224ed236f14c930
-SHA1: 405c9aa0a87bcc607402f88559b4bbf0dae066b8
-SHA256: 99e13ca20658e5d83deca7b3de450a0a90af03a285314699fde2c54bcdc64d63
+Filename: ./td-libvips42_8.10.5-3_arm64.deb
+Size: 906732
+MD5sum: 1d4f63e4e8d48253d3f5f26f9185492b
+SHA1: b34c733a59fea673bc62ae78ebc9d1e0914baf7f
+SHA256: caea1bcaa1a3a110d3ad11fd42acba33286611579a15b98a8162266d581cf6a0
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1050,29 +1038,6 @@ Description: lightweight C websockets library - development files
 Package: td-libwebsockets-test-server
 Source: libwebsockets
 Version: 3.2.2-1
-Architecture: amd64
-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 1062
-Depends: td-libwebsockets (= 3.2.2-1), td-libwebsockets-test-server-common (= 3.2.2-1), libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
-Filename: ./td-libwebsockets-test-server_3.2.2-1_amd64.deb
-Size: 184548
-MD5sum: b58f0fa4642007034e69c163b180c7ce
-SHA1: bd43d0b4832254d700fc16249a0573f9ca155387
-SHA256: 3f93ff703aea5e4a3180ba912e5c694b40f511384456ba58be0ed72c685d8d6d
-Section: utils
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://libwebsockets.org/
-Description: lightweight C websockets library - test servers
- Libwebsockets is a lightweight pure C library for both websockets
- clients and servers built to use minimal CPU and memory resources
- and provide fast throughput in both directions.
- .
- This package contains several demonstration test servers.
-
-Package: td-libwebsockets-test-server
-Source: libwebsockets
-Version: 3.2.2-1
 Architecture: arm64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 941
@@ -1100,7 +1065,7 @@ Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 1062
 Depends: td-libwebsockets (= 3.2.2-1), td-libwebsockets-test-server-common (= 3.2.2-1), libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
-Filename: ./td-libwebsockets-dev-dist/td-libwebsockets-test-server_3.2.2-1_amd64.deb
+Filename: ./td-libwebsockets-test-server_3.2.2-1_amd64.deb
 Size: 184548
 MD5sum: b58f0fa4642007034e69c163b180c7ce
 SHA1: bd43d0b4832254d700fc16249a0573f9ca155387
@@ -1128,6 +1093,29 @@ Size: 157992
 MD5sum: c0faaa970501332ca746c533201531ed
 SHA1: 3a1c09dbfdc8de18f8981750bca1ff22fa21bde9
 SHA256: 80bf5a1cf172cb93b8a07592250bd8e32307732a8f997c4d3b859d6a2de934f5
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://libwebsockets.org/
+Description: lightweight C websockets library - test servers
+ Libwebsockets is a lightweight pure C library for both websockets
+ clients and servers built to use minimal CPU and memory resources
+ and provide fast throughput in both directions.
+ .
+ This package contains several demonstration test servers.
+
+Package: td-libwebsockets-test-server
+Source: libwebsockets
+Version: 3.2.2-1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 1062
+Depends: td-libwebsockets (= 3.2.2-1), td-libwebsockets-test-server-common (= 3.2.2-1), libc6 (>= 2.17), libcap2 (>= 1:2.10), libev4 (>= 1:4.04), libssl1.1 (>= 1.1.1), libuv1 (>= 1.4.2)
+Filename: ./td-libwebsockets-dev-dist/td-libwebsockets-test-server_3.2.2-1_amd64.deb
+Size: 184548
+MD5sum: b58f0fa4642007034e69c163b180c7ce
+SHA1: bd43d0b4832254d700fc16249a0573f9ca155387
+SHA256: 3f93ff703aea5e4a3180ba912e5c694b40f511384456ba58be0ed72c685d8d6d
 Section: utils
 Priority: optional
 Multi-Arch: foreign
@@ -1189,18 +1177,6 @@ Description: lightweight C websockets library - test servers data
 
 Package: td-process-exporter
 Version: 1.0.0
-Architecture: i386
-Maintainer: Tada.team <info@tada.team>
-Filename: ./td-process-exporter_1.0.0_i386.deb
-Size: 5668972
-MD5sum: 4f4a88963b2a7948224d4dc0678fb37b
-SHA1: 312e5e89be2455b1ed4e9dcd9dab7dce8bd5a5b7
-SHA256: 3dd6ce863dcea66e083d278e9896228762b31777367c84c30415fe593ea73e40
-Section: admin
-Description: custom github.com/tada-team/process-exporter build
-
-Package: td-process-exporter
-Version: 1.0.0
 Architecture: amd64
 Maintainer: Tada.team <info@tada.team>
 Installed-Size: 9476
@@ -1211,6 +1187,18 @@ SHA1: b473ec41932c6f07d72b118785d9929a01884a09
 SHA256: 9eaac8e93482ecf9b66c11061d5488d7272eed290c48079e84758a58012806da
 Section: admin
 Priority: optional
+Description: custom github.com/tada-team/process-exporter build
+
+Package: td-process-exporter
+Version: 1.0.0
+Architecture: i386
+Maintainer: Tada.team <info@tada.team>
+Filename: ./td-process-exporter_1.0.0_i386.deb
+Size: 5668972
+MD5sum: 4f4a88963b2a7948224d4dc0678fb37b
+SHA1: 312e5e89be2455b1ed4e9dcd9dab7dce8bd5a5b7
+SHA256: 3dd6ce863dcea66e083d278e9896228762b31777367c84c30415fe593ea73e40
+Section: admin
 Description: custom github.com/tada-team/process-exporter build
 
 Package: td-process-exporter
@@ -1229,20 +1217,6 @@ Description: custom github.com/tada-team/process-exporter build
 
 Package: td-process-exporter
 Version: 1.0.2
-Architecture: amd64
-Maintainer: Tada.team <info@tada.team>
-Installed-Size: 8539
-Filename: ./td-process-exporter_1.0.2_amd64.deb
-Size: 2584652
-MD5sum: 05732d1547c9cf3959610882f4c0031b
-SHA1: c4f8c0838c4a41e96552ac7fe46c86f3c40baaa6
-SHA256: cb2e85db516b3e758524e707a8d4238073aefffff3314fb8946285254e2de8b8
-Section: admin
-Priority: optional
-Description: custom github.com/tada-team/process-exporter build
-
-Package: td-process-exporter
-Version: 1.0.2
 Architecture: arm64
 Maintainer: Tada.team <info@tada.team>
 Installed-Size: 7805
@@ -1251,6 +1225,20 @@ Size: 2183940
 MD5sum: 7e414bed79ef98ac8c015d394a1bc800
 SHA1: 55a822761589d73bcdb26b51bf38a79068924249
 SHA256: 349bac8059669960252581931029fea909c0ba917036c499ea33894e76236c2a
+Section: admin
+Priority: optional
+Description: custom github.com/tada-team/process-exporter build
+
+Package: td-process-exporter
+Version: 1.0.2
+Architecture: amd64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 8539
+Filename: ./td-process-exporter_1.0.2_amd64.deb
+Size: 2584652
+MD5sum: 05732d1547c9cf3959610882f4c0031b
+SHA1: c4f8c0838c4a41e96552ac7fe46c86f3c40baaa6
+SHA256: cb2e85db516b3e758524e707a8d4238073aefffff3314fb8946285254e2de8b8
 Section: admin
 Priority: optional
 Description: custom github.com/tada-team/process-exporter build
