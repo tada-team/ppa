@@ -645,17 +645,17 @@ Description: image processing system good for very large ones (dev)
 
 Package: td-libvips-dev
 Source: vips
-Version: 8.10.5-4
-Architecture: arm64
+Version: 8.10.6-1
+Architecture: amd64
 Maintainer: igo95862 <igo95862@yandex.ru>
-Installed-Size: 3517
+Installed-Size: 3944
 Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
 Conflicts: libvips-dev, libvips-tools, libvips42
-Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.5-4_arm64.deb
-Size: 963936
-MD5sum: 92c380d6b0e876b4bb06589f2318ae2a
-SHA1: 355da6b7aa85cc68536baf677360986ffb2aa992
-SHA256: 866dc98b3a016c462dd8e52256fc42242442dfebf662a2dafff3f9021fbe7cae
+Filename: ./td-libvips-dev_8.10.6-1_amd64.deb
+Size: 1106024
+MD5sum: 3042c17209fe021a474bebad43ba5852
+SHA1: 223ac22c5e43980204f8e590f5d9153de8d9b8b7
+SHA256: a69967e51e8efa45759689787e547b9ee3f78262e62dcda36f1bb973bf2fecbb
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -673,17 +673,73 @@ Description: image processing system good for very large ones (dev)
 
 Package: td-libvips-dev
 Source: vips
-Version: 8.10.5-4
-Architecture: amd64
+Version: 8.10.6-1
+Architecture: arm64
 Maintainer: igo95862 <igo95862@yandex.ru>
-Installed-Size: 3860
+Installed-Size: 3777
 Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
 Conflicts: libvips-dev, libvips-tools, libvips42
-Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.5-4_amd64.deb
-Size: 1098888
-MD5sum: 915e627aa6355b1f5cf43251ad0516bf
-SHA1: ba848d9df977c582dd3bcc491818cf56689a2218
-SHA256: 1dff9046d8071d9ee3a49fae21cd86d5afb9086ec083ac3f88edb91957f9d54e
+Filename: ./td-libvips-dev_8.10.6-1_arm64.deb
+Size: 1022976
+MD5sum: a3eeef4c1d6b0c2e51d865295171367e
+SHA1: 693b263289f63b19b2722201d40800559787f66b
+SHA256: f0269fe7ad36a3dbeb79a84f70e3579a28f6cba383a9b2c6897dc105d8f5bf4d
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://libvips.github.io/libvips/
+Description: image processing system good for very large ones (dev)
+ VIPS is an image processing system designed with efficiency in mind.
+ It is good with large images (ones that larger than the amount of RAM in
+ your machine), and for working with colour.  It can perform many
+ image manipulation tasks much faster than other packages such as
+ ImageMagick and the GIMP and includes some special features such as
+ creating single "mosaic" images from multiple parts.
+ .
+ This package includes all development files needed to compile
+ applications that use the vips library.
+
+Package: td-libvips-dev
+Source: vips
+Version: 8.10.6-1
+Architecture: amd64
+Maintainer: igo95862 <igo95862@yandex.ru>
+Installed-Size: 3944
+Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
+Conflicts: libvips-dev, libvips-tools, libvips42
+Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.6-1_amd64.deb
+Size: 1106024
+MD5sum: 3042c17209fe021a474bebad43ba5852
+SHA1: 223ac22c5e43980204f8e590f5d9153de8d9b8b7
+SHA256: a69967e51e8efa45759689787e547b9ee3f78262e62dcda36f1bb973bf2fecbb
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://libvips.github.io/libvips/
+Description: image processing system good for very large ones (dev)
+ VIPS is an image processing system designed with efficiency in mind.
+ It is good with large images (ones that larger than the amount of RAM in
+ your machine), and for working with colour.  It can perform many
+ image manipulation tasks much faster than other packages such as
+ ImageMagick and the GIMP and includes some special features such as
+ creating single "mosaic" images from multiple parts.
+ .
+ This package includes all development files needed to compile
+ applications that use the vips library.
+
+Package: td-libvips-dev
+Source: vips
+Version: 8.10.6-1
+Architecture: arm64
+Maintainer: igo95862 <igo95862@yandex.ru>
+Installed-Size: 3777
+Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
+Conflicts: libvips-dev, libvips-tools, libvips42
+Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.6-1_arm64.deb
+Size: 1022976
+MD5sum: a3eeef4c1d6b0c2e51d865295171367e
+SHA1: 693b263289f63b19b2722201d40800559787f66b
+SHA256: f0269fe7ad36a3dbeb79a84f70e3579a28f6cba383a9b2c6897dc105d8f5bf4d
 Section: libdevel
 Priority: optional
 Multi-Arch: same
