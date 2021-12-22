@@ -203,6 +203,142 @@ Description: general purpose WebRTC server/gateway
  SIP gateways and the like.
 
 Package: td-janus
+Source: janus
+Version: 0.10.10-4
+Architecture: arm64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 3517
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, libnice-dev, libsrtp2-dev, libwebsockets-dev, libgupnp-igd-1.0-dev
+Filename: ./td-janus_0.10.10-4_arm64.deb
+Size: 1077244
+MD5sum: f7c5aeca869179390357dc670bae1b00
+SHA1: c84f143410a4deae6172835bfedab8f31b05239d
+SHA256: a1391270aea6329c745b695b4b0e9b2e25597db730dc1190094a3fe0d3e6f25a
+Section: comm
+Priority: optional
+Homepage: https://janus.conf.meetecho.com
+Description: general purpose WebRTC server/gateway
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ As such, it doesn't provide any functionality per se
+ other than implementing the means to set up
+ a WebRTC media communication with a browser or application,
+ exchanging JSON messages with it over different transports,
+ and relaying RTP/RTCP and messages between clients
+ and the server-side application logic they're attached to.
+ Any specific feature/application is provided
+ by server side plugins,
+ that browsers can then contact via the server
+ to take advantage of the functionality they provide.
+ .
+ Example of such plugins can be implementations of applications
+ like echo tests, conference bridges, media recorders,
+ SIP gateways and the like.
+
+Package: td-janus
+Source: janus
+Version: 0.10.10-4
+Architecture: amd64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 3642
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, libnice-dev, libsrtp2-dev, libwebsockets-dev, libgupnp-igd-1.0-dev
+Filename: ./td-janus_0.10.10-4_amd64.deb
+Size: 1126248
+MD5sum: 4ada113fdd7bb2f43a460aa21f1f0fe5
+SHA1: 787820d1ef0b8ef72f42f835250d34e601c8868a
+SHA256: 25e352869cbc075e30fa139f7d1a3528233e98855af46f47d1eefd9018f6f168
+Section: comm
+Priority: optional
+Homepage: https://janus.conf.meetecho.com
+Description: general purpose WebRTC server/gateway
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ As such, it doesn't provide any functionality per se
+ other than implementing the means to set up
+ a WebRTC media communication with a browser or application,
+ exchanging JSON messages with it over different transports,
+ and relaying RTP/RTCP and messages between clients
+ and the server-side application logic they're attached to.
+ Any specific feature/application is provided
+ by server side plugins,
+ that browsers can then contact via the server
+ to take advantage of the functionality they provide.
+ .
+ Example of such plugins can be implementations of applications
+ like echo tests, conference bridges, media recorders,
+ SIP gateways and the like.
+
+Package: td-janus
+Source: janus
+Version: 0.10.10-4
+Architecture: arm64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 3517
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, libnice-dev, libsrtp2-dev, libwebsockets-dev, libgupnp-igd-1.0-dev
+Filename: ./td-libvips-dev-dist/td-janus_0.10.10-4_arm64.deb
+Size: 1077244
+MD5sum: f7c5aeca869179390357dc670bae1b00
+SHA1: c84f143410a4deae6172835bfedab8f31b05239d
+SHA256: a1391270aea6329c745b695b4b0e9b2e25597db730dc1190094a3fe0d3e6f25a
+Section: comm
+Priority: optional
+Homepage: https://janus.conf.meetecho.com
+Description: general purpose WebRTC server/gateway
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ As such, it doesn't provide any functionality per se
+ other than implementing the means to set up
+ a WebRTC media communication with a browser or application,
+ exchanging JSON messages with it over different transports,
+ and relaying RTP/RTCP and messages between clients
+ and the server-side application logic they're attached to.
+ Any specific feature/application is provided
+ by server side plugins,
+ that browsers can then contact via the server
+ to take advantage of the functionality they provide.
+ .
+ Example of such plugins can be implementations of applications
+ like echo tests, conference bridges, media recorders,
+ SIP gateways and the like.
+
+Package: td-janus
+Source: janus
+Version: 0.10.10-4
+Architecture: amd64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 3642
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, libnice-dev, libsrtp2-dev, libwebsockets-dev, libgupnp-igd-1.0-dev
+Filename: ./td-libvips-dev-dist/td-janus_0.10.10-4_amd64.deb
+Size: 1126248
+MD5sum: 4ada113fdd7bb2f43a460aa21f1f0fe5
+SHA1: 787820d1ef0b8ef72f42f835250d34e601c8868a
+SHA256: 25e352869cbc075e30fa139f7d1a3528233e98855af46f47d1eefd9018f6f168
+Section: comm
+Priority: optional
+Homepage: https://janus.conf.meetecho.com
+Description: general purpose WebRTC server/gateway
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ As such, it doesn't provide any functionality per se
+ other than implementing the means to set up
+ a WebRTC media communication with a browser or application,
+ exchanging JSON messages with it over different transports,
+ and relaying RTP/RTCP and messages between clients
+ and the server-side application logic they're attached to.
+ Any specific feature/application is provided
+ by server side plugins,
+ that browsers can then contact via the server
+ to take advantage of the functionality they provide.
+ .
+ Example of such plugins can be implementations of applications
+ like echo tests, conference bridges, media recorders,
+ SIP gateways and the like.
+
+Package: td-janus
 Version: 0.10.9
 Architecture: all
 Maintainer: Tada.team <info@tada.team>
@@ -680,62 +816,6 @@ Installed-Size: 3777
 Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
 Conflicts: libvips-dev, libvips-tools, libvips42
 Filename: ./td-libvips-dev_8.10.6-1_arm64.deb
-Size: 1022976
-MD5sum: a3eeef4c1d6b0c2e51d865295171367e
-SHA1: 693b263289f63b19b2722201d40800559787f66b
-SHA256: f0269fe7ad36a3dbeb79a84f70e3579a28f6cba383a9b2c6897dc105d8f5bf4d
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://libvips.github.io/libvips/
-Description: image processing system good for very large ones (dev)
- VIPS is an image processing system designed with efficiency in mind.
- It is good with large images (ones that larger than the amount of RAM in
- your machine), and for working with colour.  It can perform many
- image manipulation tasks much faster than other packages such as
- ImageMagick and the GIMP and includes some special features such as
- creating single "mosaic" images from multiple parts.
- .
- This package includes all development files needed to compile
- applications that use the vips library.
-
-Package: td-libvips-dev
-Source: vips
-Version: 8.10.6-1
-Architecture: amd64
-Maintainer: igo95862 <igo95862@yandex.ru>
-Installed-Size: 3944
-Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
-Conflicts: libvips-dev, libvips-tools, libvips42
-Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.6-1_amd64.deb
-Size: 1106024
-MD5sum: 3042c17209fe021a474bebad43ba5852
-SHA1: 223ac22c5e43980204f8e590f5d9153de8d9b8b7
-SHA256: a69967e51e8efa45759689787e547b9ee3f78262e62dcda36f1bb973bf2fecbb
-Section: libdevel
-Priority: optional
-Multi-Arch: same
-Homepage: https://libvips.github.io/libvips/
-Description: image processing system good for very large ones (dev)
- VIPS is an image processing system designed with efficiency in mind.
- It is good with large images (ones that larger than the amount of RAM in
- your machine), and for working with colour.  It can perform many
- image manipulation tasks much faster than other packages such as
- ImageMagick and the GIMP and includes some special features such as
- creating single "mosaic" images from multiple parts.
- .
- This package includes all development files needed to compile
- applications that use the vips library.
-
-Package: td-libvips-dev
-Source: vips
-Version: 8.10.6-1
-Architecture: arm64
-Maintainer: igo95862 <igo95862@yandex.ru>
-Installed-Size: 3777
-Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig
-Conflicts: libvips-dev, libvips-tools, libvips42
-Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.6-1_arm64.deb
 Size: 1022976
 MD5sum: a3eeef4c1d6b0c2e51d865295171367e
 SHA1: 693b263289f63b19b2722201d40800559787f66b
