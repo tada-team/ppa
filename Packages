@@ -272,16 +272,16 @@ Description: general purpose WebRTC server/gateway
 
 Package: td-janus
 Source: janus
-Version: 0.10.10-4
+Version: 0.10.10-5
 Architecture: arm64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
-Installed-Size: 3517
-Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, libnice-dev, libsrtp2-dev, libwebsockets-dev, libgupnp-igd-1.0-dev
-Filename: ./td-libvips-dev-dist/td-janus_0.10.10-4_arm64.deb
-Size: 1077244
-MD5sum: f7c5aeca869179390357dc670bae1b00
-SHA1: c84f143410a4deae6172835bfedab8f31b05239d
-SHA256: a1391270aea6329c745b695b4b0e9b2e25597db730dc1190094a3fe0d3e6f25a
+Installed-Size: 3585
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, libnice-dev, libwebsockets-dev, libgupnp-igd-1.0-dev, td-libsrtp-dev (>= 2.3.0-3)
+Filename: ./td-janus_0.10.10-5_arm64.deb
+Size: 1101420
+MD5sum: 93bacfc5c58e9eca65b96f40b19a9184
+SHA1: d4311ca762fdb0ef9b478838101b4ab5bc88e80b
+SHA256: 9bba7134dbc3a487a17436eddf013a316b5b0ac7e5a6f1e0c0e1f7edbb3742fe
 Section: comm
 Priority: optional
 Homepage: https://janus.conf.meetecho.com
@@ -306,16 +306,84 @@ Description: general purpose WebRTC server/gateway
 
 Package: td-janus
 Source: janus
-Version: 0.10.10-4
+Version: 0.10.10-5
 Architecture: amd64
 Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
-Installed-Size: 3642
-Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, libnice-dev, libsrtp2-dev, libwebsockets-dev, libgupnp-igd-1.0-dev
-Filename: ./td-libvips-dev-dist/td-janus_0.10.10-4_amd64.deb
-Size: 1126248
-MD5sum: 4ada113fdd7bb2f43a460aa21f1f0fe5
-SHA1: 787820d1ef0b8ef72f42f835250d34e601c8868a
-SHA256: 25e352869cbc075e30fa139f7d1a3528233e98855af46f47d1eefd9018f6f168
+Installed-Size: 3706
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, libnice-dev, libwebsockets-dev, libgupnp-igd-1.0-dev, td-libsrtp-dev (>= 2.3.0-3)
+Filename: ./td-janus_0.10.10-5_amd64.deb
+Size: 1150680
+MD5sum: 396bee491abf5eb6112d8857802aae95
+SHA1: 5fdb44d80a50db82809fa0ce57c627e83bddac02
+SHA256: ec3a7ff20190f22ee48b688c6afe4167069a78063b598e78c356588fc745b062
+Section: comm
+Priority: optional
+Homepage: https://janus.conf.meetecho.com
+Description: general purpose WebRTC server/gateway
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ As such, it doesn't provide any functionality per se
+ other than implementing the means to set up
+ a WebRTC media communication with a browser or application,
+ exchanging JSON messages with it over different transports,
+ and relaying RTP/RTCP and messages between clients
+ and the server-side application logic they're attached to.
+ Any specific feature/application is provided
+ by server side plugins,
+ that browsers can then contact via the server
+ to take advantage of the functionality they provide.
+ .
+ Example of such plugins can be implementations of applications
+ like echo tests, conference bridges, media recorders,
+ SIP gateways and the like.
+
+Package: td-janus
+Source: janus
+Version: 0.10.10-5
+Architecture: arm64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 3585
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, libnice-dev, libwebsockets-dev, libgupnp-igd-1.0-dev, td-libsrtp-dev (>= 2.3.0-3)
+Filename: ./td-libvips-dev-dist/td-janus_0.10.10-5_arm64.deb
+Size: 1101420
+MD5sum: 93bacfc5c58e9eca65b96f40b19a9184
+SHA1: d4311ca762fdb0ef9b478838101b4ab5bc88e80b
+SHA256: 9bba7134dbc3a487a17436eddf013a316b5b0ac7e5a6f1e0c0e1f7edbb3742fe
+Section: comm
+Priority: optional
+Homepage: https://janus.conf.meetecho.com
+Description: general purpose WebRTC server/gateway
+ janus is a general purpose WebRTC server/gateway
+ with a minimal footprint.
+ .
+ As such, it doesn't provide any functionality per se
+ other than implementing the means to set up
+ a WebRTC media communication with a browser or application,
+ exchanging JSON messages with it over different transports,
+ and relaying RTP/RTCP and messages between clients
+ and the server-side application logic they're attached to.
+ Any specific feature/application is provided
+ by server side plugins,
+ that browsers can then contact via the server
+ to take advantage of the functionality they provide.
+ .
+ Example of such plugins can be implementations of applications
+ like echo tests, conference bridges, media recorders,
+ SIP gateways and the like.
+
+Package: td-janus
+Source: janus
+Version: 0.10.10-5
+Architecture: amd64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 3706
+Depends: gengetopt, libconfig-dev, libjansson-dev, libopus-dev, libnice-dev, libwebsockets-dev, libgupnp-igd-1.0-dev, td-libsrtp-dev (>= 2.3.0-3)
+Filename: ./td-libvips-dev-dist/td-janus_0.10.10-5_amd64.deb
+Size: 1150680
+MD5sum: 396bee491abf5eb6112d8857802aae95
+SHA1: 5fdb44d80a50db82809fa0ce57c627e83bddac02
+SHA256: ec3a7ff20190f22ee48b688c6afe4167069a78063b598e78c356588fc745b062
 Section: comm
 Priority: optional
 Homepage: https://janus.conf.meetecho.com
@@ -548,6 +616,74 @@ Size: 41688
 MD5sum: bd863432a3881afd69b619b12c66d717
 SHA1: 1878e07f790329611c34c95039e023b8c4fdb16d
 SHA256: 0fdecdcb67ee1766ac315604d8daaf8716c6a1e8cef2afa7979346efed515d1c
+Section: devel
+Priority: optional
+Description: custom libsrtp build
+
+Package: td-libsrtp-dev
+Source: libsrtp
+Version: 2.3.0-3
+Architecture: amd64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 241
+Depends: libssl-dev
+Conflicts: libsrtp-dev
+Filename: ./td-libsrtp-dev_2.3.0-3_amd64.deb
+Size: 44800
+MD5sum: 3cebf669de9a1fb5e2b3918bd8893002
+SHA1: 4935b8bddf24139b74a65397c50baa9129171bf4
+SHA256: 201900a1a771913a26f39d1fbe97d71150bb04667da9289615ab663cca6ba2f2
+Section: devel
+Priority: optional
+Description: custom libsrtp build
+
+Package: td-libsrtp-dev
+Source: libsrtp
+Version: 2.3.0-3
+Architecture: arm64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 244
+Depends: libssl-dev
+Conflicts: libsrtp-dev
+Filename: ./td-libsrtp-dev_2.3.0-3_arm64.deb
+Size: 44804
+MD5sum: 0c36d00a98dfcc960a2bb25f6f4b9ca2
+SHA1: 6594757a6d8714858a2d007beb700fcc7aed2a79
+SHA256: a67836712a7084c090f37176f0070dc94dcb58bfe9899725a0ef8da166236e9d
+Section: devel
+Priority: optional
+Description: custom libsrtp build
+
+Package: td-libsrtp-dev
+Source: libsrtp
+Version: 2.3.0-3
+Architecture: amd64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 241
+Depends: libssl-dev
+Conflicts: libsrtp-dev
+Filename: ./td-libvips-dev-dist/td-libsrtp-dev_2.3.0-3_amd64.deb
+Size: 44800
+MD5sum: 3cebf669de9a1fb5e2b3918bd8893002
+SHA1: 4935b8bddf24139b74a65397c50baa9129171bf4
+SHA256: 201900a1a771913a26f39d1fbe97d71150bb04667da9289615ab663cca6ba2f2
+Section: devel
+Priority: optional
+Description: custom libsrtp build
+
+Package: td-libsrtp-dev
+Source: libsrtp
+Version: 2.3.0-3
+Architecture: arm64
+Maintainer: Tada.team <info@tada.team>
+Installed-Size: 244
+Depends: libssl-dev
+Conflicts: libsrtp-dev
+Filename: ./td-libvips-dev-dist/td-libsrtp-dev_2.3.0-3_arm64.deb
+Size: 44804
+MD5sum: 0c36d00a98dfcc960a2bb25f6f4b9ca2
+SHA1: 6594757a6d8714858a2d007beb700fcc7aed2a79
+SHA256: a67836712a7084c090f37176f0070dc94dcb58bfe9899725a0ef8da166236e9d
 Section: devel
 Priority: optional
 Description: custom libsrtp build
