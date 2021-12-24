@@ -875,13 +875,13 @@ Version: 8.10.6-2
 Architecture: amd64
 Maintainer: igo95862 <igo95862@yandex.ru>
 Installed-Size: 3968
-Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig, libheif1
+Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig, libheif-dev
 Conflicts: libvips-dev, libvips-tools, libvips42
 Filename: ./td-libvips-dev_8.10.6-2_amd64.deb
-Size: 1109664
-MD5sum: d559b0f12868d1a5a9b4b6512d6f2486
-SHA1: af977c378edc86ddcc3644660c9798d7172c610b
-SHA256: 8053d252c20272f9e624c53d7ae6cf3e691b5ce57a5545508c9f2c886d5551cd
+Size: 1108596
+MD5sum: 5ff6dc4c9da8be9978d82fc62633b58f
+SHA1: b7ea656057afa7ec7494bf561079a4c2253d7272
+SHA256: aa7797fe2000d43147311f5d81569e7a173b3374f72875cd6e33664823f45ced
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -903,13 +903,13 @@ Version: 8.10.6-2
 Architecture: arm64
 Maintainer: igo95862 <igo95862@yandex.ru>
 Installed-Size: 3805
-Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig, libheif1
+Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig, libheif-dev
 Conflicts: libvips-dev, libvips-tools, libvips42
 Filename: ./td-libvips-dev_8.10.6-2_arm64.deb
-Size: 1028912
-MD5sum: 4266e9a5215b807e4721f7d993283588
-SHA1: 67a757a3015e2eb407e163fd841588555abb62e6
-SHA256: 99b074e3f0bcf4bb4e98396e50e59bf7f206091a1ef62deba718cc8d787d1599
+Size: 1028372
+MD5sum: fcfabca18d32c8a404bbdd914a10ffa9
+SHA1: ed6e9638e69b8bd0aaa5dddfb2aa52a89a909383
+SHA256: 7882cc2f86791e7d8bfde7a6504c5079be616ef1862a03e1a8b1f7efc4e1f94b
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -931,13 +931,13 @@ Version: 8.10.6-2
 Architecture: amd64
 Maintainer: igo95862 <igo95862@yandex.ru>
 Installed-Size: 3968
-Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig, libheif1
+Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig, libheif-dev
 Conflicts: libvips-dev, libvips-tools, libvips42
 Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.6-2_amd64.deb
-Size: 1109664
-MD5sum: d559b0f12868d1a5a9b4b6512d6f2486
-SHA1: af977c378edc86ddcc3644660c9798d7172c610b
-SHA256: 8053d252c20272f9e624c53d7ae6cf3e691b5ce57a5545508c9f2c886d5551cd
+Size: 1108596
+MD5sum: 5ff6dc4c9da8be9978d82fc62633b58f
+SHA1: b7ea656057afa7ec7494bf561079a4c2253d7272
+SHA256: aa7797fe2000d43147311f5d81569e7a173b3374f72875cd6e33664823f45ced
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -959,13 +959,13 @@ Version: 8.10.6-2
 Architecture: arm64
 Maintainer: igo95862 <igo95862@yandex.ru>
 Installed-Size: 3805
-Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig, libheif1
+Depends: libexif-dev, libexpat1-dev, libgif-dev, libgif7, libglib2.0-dev, libgsf-1-dev, libjpeg-dev, liblcms2-dev, libmagickcore-6.q16-dev, libpng-dev, libpoppler-glib-dev, libtiff5-dev, libtool, libwebp-dev, libxml2-dev, swig, libheif-dev
 Conflicts: libvips-dev, libvips-tools, libvips42
 Filename: ./td-libvips-dev-dist/td-libvips-dev_8.10.6-2_arm64.deb
-Size: 1028912
-MD5sum: 4266e9a5215b807e4721f7d993283588
-SHA1: 67a757a3015e2eb407e163fd841588555abb62e6
-SHA256: 99b074e3f0bcf4bb4e98396e50e59bf7f206091a1ef62deba718cc8d787d1599
+Size: 1028372
+MD5sum: fcfabca18d32c8a404bbdd914a10ffa9
+SHA1: ed6e9638e69b8bd0aaa5dddfb2aa52a89a909383
+SHA256: 7882cc2f86791e7d8bfde7a6504c5079be616ef1862a03e1a8b1f7efc4e1f94b
 Section: libdevel
 Priority: optional
 Multi-Arch: same
